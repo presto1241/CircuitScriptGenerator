@@ -14,6 +14,7 @@ public partial class App : Application
     public override void Initialize()
     {
         AvaloniaXamlLoader.Load(this);
+        CircuitScriptGenerator.Core.Api.Nodes.NodeStorage.LoadNodes();
     }
 
     public override void OnFrameworkInitializationCompleted()

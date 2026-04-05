@@ -8,7 +8,7 @@
         x:Class="CircuitScriptGenerator.GUI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="CircuitScriptGenerator.GUI">
+        Title="Circuit Script Generator">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -16,8 +16,24 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <StackPanel>
-        <components:Toolbar/>
-        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-    </StackPanel>
+    <DockPanel>
+        <components:Toolbar DockPanel.Dock="Top"/>
+
+        
+        <Grid>
+            <DockPanel x:Name="Root">
+                <components:GraphView x:Name="GraphView"/>
+            </DockPanel>
+
+            <Border HorizontalAlignment="Left" 
+                    VerticalAlignment="Top">
+                <components:EntryNodeList x:Name="EntryNodeList"/>
+            </Border>
+
+            <Border HorizontalAlignment="Right" 
+                    VerticalAlignment="Bottom">
+                <Button x:Name="Export_Button" Content="Export" Classes="ExportButton"/>
+            </Border>
+        </Grid>
+    </DockPanel>
 </Window>

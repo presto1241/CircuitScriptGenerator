@@ -1,6 +1,22 @@
-<!-- MyComponent.axaml -->
+<!-- Toolbar.axaml -->
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              x:Class="CircuitScriptGenerator.GUI.Views.Components.Toolbar">
-  <TextBlock Text="Hello from Toolbar!" />
+  
+  <StackPanel Orientation="Horizontal"
+              Spacing="1"
+              Background="#222"
+              HorizontalAlignment="Stretch"
+              >
+      <Button x:Name="File" Content="File" Classes="Toolbar">
+        <Button.Flyout>
+          <MenuFlyout Placement="BottomEdgeAlignedLeft">
+            <MenuItem Header="Open" />
+            <MenuItem Header="Save" />
+          </MenuFlyout>
+        </Button.Flyout>
+      </Button>
+
+      <Button x:Name="Edit" Content="Edit" Classes="Toolbar"/>
+  </StackPanel>
 </UserControl>

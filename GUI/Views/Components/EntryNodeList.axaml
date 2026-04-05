@@ -1,0 +1,30 @@
+<!-- EntryNodeList.axaml -->
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:CircuitScriptGenerator.GUI.ViewModels.Components"
+             x:Class="CircuitScriptGenerator.GUI.Views.Components.EntryNodeList"
+             x:DataType="vm:EntryNodeListViewModel">
+    
+    <UserControl.DataContext>
+        <vm:EntryNodeListViewModel/>
+    </UserControl.DataContext>
+
+    <StackPanel>
+        <Button Command="{Binding TogglePane}" HorizontalAlignment="Left">
+            <Image Source="/Assets/hamburger-icon.png" Width="16"/>
+        </Button>
+
+        <SplitView IsPaneOpen="{Binding IsPaneOpen}"
+                   DisplayMode="CompactInline"
+                   CompactPaneLength="0"
+                   OpenPaneLength="256">
+            <SplitView.Pane>
+                <StackPanel>
+                    <Button Content="Cool Button 1" />
+                    <Button Content="Cool Button 2" />
+                    <Button Content="Cool Button 3" />
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
+    </StackPanel>
+</UserControl>
