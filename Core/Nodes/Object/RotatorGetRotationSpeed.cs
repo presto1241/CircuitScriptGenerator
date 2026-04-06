@@ -1,0 +1,32 @@
+/*
+ * Filename: RotatorGetRotationSpeed.cs
+ * Category: Object
+ * Created Date: 2026-04-05T23:55:26+00:00
+ * Author: Preston
+ * 
+ * Description: Outputs the speed of a target Rotator.
+ * Types: 
+ * 
+ * INPUTS: 
+ * Target (Rotator)
+ *
+ * OUTPUTS: 
+ * Value (float)
+ *
+ */
+using CircuitScriptGenerator.Core.Api.Nodes;
+using CircuitScriptGenerator.Core.Data;
+
+namespace CircuitScriptGenerator.Core.Nodes.Object;
+
+[Node("be834de9-91cb-4588-8988-3a6abfd56573")]
+public class RotatorGetRotationSpeed : INodeBehaviour
+{
+    public void Generate(List<Port> inputPorts, List<Port> outputPorts)
+    {
+        throw new NotImplementedException();
+    }
+
+    public string GetName() => "Rotator Get Rotation Speed";
+    public string GetVariableQualifiedName() => "rotatorGetRotationSpeed";
+}
