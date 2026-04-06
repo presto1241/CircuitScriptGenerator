@@ -1,7 +1,7 @@
 /*
  * Filename: DestinationRoomConstant.cs
  * Category: Constant
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Configure this constant to choose a destination, specifying room, subroom, and welcome mat. If destination room is different than current room, only Entry Subrooms may be targeted. Party follow options may vary by destination. Use this chip with Go To Room.

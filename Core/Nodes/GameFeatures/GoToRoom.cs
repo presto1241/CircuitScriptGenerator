@@ -1,7 +1,7 @@
 /*
  * Filename: GoToRoom.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Execution sends the specified player to a preconfigured destination. Use a destination constant or variable to specify the destination of this chip. Follow settings are a property of the destination.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("bad6a57b-2af8-4526-8caa-e07476da4a5b")]
 public class GoToRoom : INodeBehaviour

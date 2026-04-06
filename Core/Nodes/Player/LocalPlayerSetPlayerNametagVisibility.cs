@@ -1,7 +1,7 @@
 /*
  * Filename: LocalPlayerSetPlayerNametagVisibility.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Control whether the player sees the nametag of the target player.It takes priority over role settings.Reset the room to remove the effect of this chip.

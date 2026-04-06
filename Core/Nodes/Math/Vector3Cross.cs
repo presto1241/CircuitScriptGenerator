@@ -1,7 +1,7 @@
 /*
  * Filename: Vector3Cross.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: The cross product of two vectors results in a third vector which is perpendicular to the two input vectors.

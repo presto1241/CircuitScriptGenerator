@@ -1,7 +1,7 @@
 /*
  * Filename: ProjectileLauncherGetProjectileSpread.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the angle (in degrees) that projectiles fired from this Projectile Launcher will stray from the firing direction. This accounts for both accuracy and things like shotgun spread. Projectiles are randomly distributed somewhere within this angle when fired.

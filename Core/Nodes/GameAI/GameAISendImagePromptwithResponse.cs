@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISendImagePromptwithResponse.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sends a system prompt with an image to the Game AI and waits for a text response.
@@ -29,7 +29,7 @@ If you want the response to be remembered, use the Response output along with a 
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("1d93fd4c-b801-474b-b36a-f713f833a813")]
 public class GameAISendImagePromptwithResponse : INodeBehaviour

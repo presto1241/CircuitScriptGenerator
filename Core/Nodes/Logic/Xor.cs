@@ -1,7 +1,7 @@
 /*
  * Filename: Xor.cs
  * Category: Logic
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Outputs True if exactly one of the inputs is True. Outputs False if all inputs are false, or more than one is True.

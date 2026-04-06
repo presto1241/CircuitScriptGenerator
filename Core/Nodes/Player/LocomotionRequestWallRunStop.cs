@@ -1,7 +1,7 @@
 /*
  * Filename: LocomotionRequestWallRunStop.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Request that the local player stop wall running. Not affected by CanWallRun directly. If you want that property to impact this request you should check it yourself.

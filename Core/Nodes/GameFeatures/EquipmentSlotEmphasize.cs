@@ -1,7 +1,7 @@
 /*
  * Filename: EquipmentSlotEmphasize.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Play an emphasize animation for equipment slot for local player. In VR,this will also trigger a controller haptics and a notification visual effect on your watch.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("c8cbba6f-dcec-4283-b601-e98edd40da36")]
 public class EquipmentSlotEmphasize : INodeBehaviour

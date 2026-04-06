@@ -1,7 +1,7 @@
 /*
  * Filename: GetFarthest.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Finds the element in Targets that is farthest in space to Origin, and returns it, its index in the list, and its distance to Origin.

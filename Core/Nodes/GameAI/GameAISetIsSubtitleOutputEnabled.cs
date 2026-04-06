@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISetIsSubtitleOutputEnabled.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Enables or disables subtitle display for the AI.
@@ -21,7 +21,7 @@ Response text will still be available through string response ports regardless o
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("b27e6514-3455-4959-aa62-8cdcaa93e1be")]
 public class GameAISetIsSubtitleOutputEnabled : INodeBehaviour

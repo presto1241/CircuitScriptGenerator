@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISetIsVoiceInputEnabled.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Enables or disables the AI’s ability to listen for user speech.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("d5326974-6b81-457b-8a03-ca611691257c")]
 public class GameAISetIsVoiceInputEnabled : INodeBehaviour

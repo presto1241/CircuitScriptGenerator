@@ -1,7 +1,7 @@
 /*
  * Filename: GoToEvent.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sends a player to a community event.
@@ -21,7 +21,7 @@ If the event is not currently happening, shows the page for it on the watch.
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("9c9f756e-f972-49a4-bd1d-82225d43b350")]
 public class GoToEvent : INodeBehaviour

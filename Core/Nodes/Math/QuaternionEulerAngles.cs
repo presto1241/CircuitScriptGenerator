@@ -1,7 +1,7 @@
 /*
  * Filename: QuaternionEulerAngles.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Outputs the input quaternion as a vector3 of euler angles specified in degrees.

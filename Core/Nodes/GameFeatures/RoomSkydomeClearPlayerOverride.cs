@@ -1,7 +1,7 @@
 /*
  * Filename: RoomSkydomeClearPlayerOverride.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Clears the given player's local room skydome state override.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("de67b647-5c82-4875-a6c4-051768c27c32")]
 public class RoomSkydomeClearPlayerOverride : INodeBehaviour

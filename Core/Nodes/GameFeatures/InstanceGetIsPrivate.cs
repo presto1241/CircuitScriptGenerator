@@ -1,7 +1,7 @@
 /*
  * Filename: InstanceGetIsPrivate.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns True if the current room instance is private.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("aa263220-c6aa-4789-b09c-c73d7fa144fd")]
 public class InstanceGetIsPrivate : INodeBehaviour

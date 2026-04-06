@@ -1,7 +1,7 @@
 /*
  * Filename: GetAllLocalPlayerMeshes.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Gets all of the meshes saved to the local player's save data.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("7272fef4-023a-4674-aefc-2c7603e90127")]
 public class GetAllLocalPlayerMeshes : INodeBehaviour

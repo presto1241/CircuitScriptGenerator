@@ -1,7 +1,7 @@
 /*
  * Filename: GetUpVectorDeprecated.cs
  * Category: Physics
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Outputs the up direction of the input target, output as a vector3.

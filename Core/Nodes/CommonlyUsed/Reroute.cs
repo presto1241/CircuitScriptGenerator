@@ -1,7 +1,7 @@
 /*
  * Filename: Reroute.cs
  * Category: Commonly Used
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Used to remove spaghetti from your creations. Consumes additional CPU heat.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Commonly Used;
+namespace CircuitScriptGenerator.Core.Nodes.CommonlyUsed;
 
 [Node("f8db4ba2-7380-49a0-a0ba-bcdca11fec96")]
 public class Reroute : INodeBehaviour

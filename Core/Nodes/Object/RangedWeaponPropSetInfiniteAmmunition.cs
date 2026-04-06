@@ -1,7 +1,7 @@
 /*
  * Filename: RangedWeaponPropSetInfiniteAmmunition.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Modifies whether or not an RRO Ranged Weapon Prop (like a Laser Pistol) has infinite ammo.

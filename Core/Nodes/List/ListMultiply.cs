@@ -1,7 +1,7 @@
 /*
  * Filename: ListMultiply.cs
  * Category: List
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Multiplies each element in the list by the next element.

@@ -1,7 +1,7 @@
 /*
  * Filename: RGBToColor.cs
  * Category: Conversion
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Return a color from the given red, green, and blue inputs. All inputs are in the range [0, 1].

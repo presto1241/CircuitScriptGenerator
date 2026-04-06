@@ -1,7 +1,7 @@
 /*
  * Filename: ListAllTrue.cs
  * Category: List
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: If all of the bool values in the list are True then return true.

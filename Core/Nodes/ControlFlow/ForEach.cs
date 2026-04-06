@@ -1,7 +1,7 @@
 /*
  * Filename: ForEach.cs
  * Category: Control Flow
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Iterates over the input list. The loop exec fires for each element in the list. The Done exec fires once the end of the list has been reached.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Control Flow;
+namespace CircuitScriptGenerator.Core.Nodes.ControlFlow;
 
 [Node("744e5311-6cc7-4130-962e-fe050a475d43")]
 public class ForEach : INodeBehaviour

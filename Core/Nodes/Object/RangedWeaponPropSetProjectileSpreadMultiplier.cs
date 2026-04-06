@@ -1,7 +1,7 @@
 /*
  * Filename: RangedWeaponPropSetProjectileSpreadMultiplier.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets a multiplier to modify the bullet spread for this Ranged Weapon Prop, letting you make guns more or less accurate. If a gun is already perfectly accurate, this does nothing.

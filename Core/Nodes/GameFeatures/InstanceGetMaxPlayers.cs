@@ -1,7 +1,7 @@
 /*
  * Filename: InstanceGetMaxPlayers.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the maximum number of players that can fit in this room, as set in subroom settings.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("af660f62-d086-4731-ab9d-9a8e8a25c77e")]
 public class InstanceGetMaxPlayers : INodeBehaviour

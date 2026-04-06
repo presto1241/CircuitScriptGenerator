@@ -1,7 +1,7 @@
 /*
  * Filename: GenAISendEditRecNetImagePrompt.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Edits a RecNet-hosted image using a Gen AI model based on a text prompt. The modified image is stored on RecNet.
@@ -25,7 +25,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("48b7ae7e-532b-45f6-9a42-9a9da2399949")]
 public class GenAISendEditRecNetImagePrompt : INodeBehaviour

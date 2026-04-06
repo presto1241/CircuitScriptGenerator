@@ -1,7 +1,7 @@
 /*
  * Filename: VelocityAdd.cs
  * Category: Physics
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Adds velocity to the input target. The input velocity will be multiplied by the magnitude of the vector provided in the input direction.

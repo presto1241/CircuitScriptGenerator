@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIGetIsVoiceInputEnabled.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns whether the AI is currently listening for player speech.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("d55423dc-6836-45fa-9e5f-4e22d7a650a5")]
 public class GameAIGetIsVoiceInputEnabled : INodeBehaviour

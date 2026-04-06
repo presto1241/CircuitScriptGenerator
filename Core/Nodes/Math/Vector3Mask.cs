@@ -1,7 +1,7 @@
 /*
  * Filename: Vector3Mask.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Keeps or zeroes out the values of each dimension of a Vector3. A "keep" value of True keeps the value passed in. A keep value of false sets that dimension's value to 0.

@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISetAreVoiceAndSubtitlesSynced.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets whether the AI’s voice responses are audible to all players.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("2c814e8f-c756-411c-ad4b-1c2c02615aa9")]
 public class GameAISetAreVoiceAndSubtitlesSynced : INodeBehaviour

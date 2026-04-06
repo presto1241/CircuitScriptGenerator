@@ -1,7 +1,7 @@
 /*
  * Filename: ArtCanvasRenderToTexture.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Renders the current content of the canvas into a texture

@@ -1,7 +1,7 @@
 /*
  * Filename: ColorConstant.cs
  * Category: Constant
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: A constant that can be configured to a custom color, and provide that value to circuits

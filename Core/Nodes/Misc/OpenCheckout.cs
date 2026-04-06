@@ -1,7 +1,7 @@
 /*
  * Filename: OpenCheckout.cs
  * Category: Misc
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Opens the checkout dialog, prompting the user to buy any unowned items being currently worn

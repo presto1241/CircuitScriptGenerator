@@ -1,7 +1,7 @@
 /*
  * Filename: AIFunctionConstant.cs
  * Category: Chat AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: A constant used to reference a Circuits Function which can be exposed to an AI.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Chat AI;
+namespace CircuitScriptGenerator.Core.Nodes.ChatAI;
 
 [Node("ec0c9ad2-60e1-44bd-af0e-9146a009d073")]
 public class AIFunctionConstant : INodeBehaviour

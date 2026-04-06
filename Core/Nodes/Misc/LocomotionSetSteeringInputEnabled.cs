@@ -1,7 +1,7 @@
 /*
  * Filename: LocomotionSetSteeringInputEnabled.cs
  * Category: Misc
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets whether steering input is enabled for the local player. Setting this to false will stop steering events from firing and will hide walk related buttons prompts and UI Elements on supported patforms

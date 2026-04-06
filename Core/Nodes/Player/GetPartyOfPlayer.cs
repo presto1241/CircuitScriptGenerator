@@ -1,7 +1,7 @@
 /*
  * Filename: GetPartyOfPlayer.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the party of the input player as List<Player>. If the player is not in a party, it will return a list containing only that player.

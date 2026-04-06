@@ -1,7 +1,7 @@
 /*
  * Filename: MeshPresenterGenerateMeshFromRecNetImageWithGenAI.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Generates a 3D mesh using a Gen AI model from a RecNet-hosted image.
@@ -23,7 +23,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("f6004da4-5127-48ee-accf-eb38893207de")]
 public class MeshPresenterGenerateMeshFromRecNetImageWithGenAI : INodeBehaviour

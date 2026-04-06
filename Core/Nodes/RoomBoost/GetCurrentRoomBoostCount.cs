@@ -1,7 +1,7 @@
 /*
  * Filename: GetCurrentRoomBoostCount.cs
  * Category: Room Boost
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the number of active room boosts in the current room.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Room Boost;
+namespace CircuitScriptGenerator.Core.Nodes.RoomBoost;
 
 [Node("0a44d37d-c891-426f-b9cd-ba2944f9e609")]
 public class GetCurrentRoomBoostCount : INodeBehaviour

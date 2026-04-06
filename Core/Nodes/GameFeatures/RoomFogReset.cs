@@ -1,7 +1,7 @@
 /*
  * Filename: RoomFogReset.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Resets the room's shared fog state to the room default.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("8d447921-57aa-471c-9628-857071fc4a10")]
 public class RoomFogReset : INodeBehaviour

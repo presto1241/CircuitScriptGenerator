@@ -1,7 +1,7 @@
 /*
  * Filename: ParseTime.cs
  * Category: Time
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Parses the input date and time and returns the corresponding universal seconds. The chip will automatically try to find the correct format of the input data.

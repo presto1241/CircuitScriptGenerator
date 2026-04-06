@@ -1,7 +1,7 @@
 /*
  * Filename: GenAIGenerateSFX.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Uses Gen AI to generate SFX.
@@ -23,7 +23,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("4d9f9832-5666-4b91-9e45-ed5e737463f1")]
 public class GenAIGenerateSFX : INodeBehaviour

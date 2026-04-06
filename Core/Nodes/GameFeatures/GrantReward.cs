@@ -1,7 +1,7 @@
 /*
  * Filename: GrantReward.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Grants the contents of a Reward to the specified Player.
@@ -21,7 +21,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("8b38e01f-9c85-47bb-abda-85e354c15d41")]
 public class GrantReward : INodeBehaviour

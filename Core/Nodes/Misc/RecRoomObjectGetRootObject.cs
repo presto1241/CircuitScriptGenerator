@@ -1,7 +1,7 @@
 /*
  * Filename: RecRoomObjectGetRootObject.cs
  * Category: Misc
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns a reference to the root object of the target object's hierarchy. 

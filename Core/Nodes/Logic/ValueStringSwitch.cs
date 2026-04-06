@@ -1,7 +1,7 @@
 /*
  * Filename: ValueStringSwitch.cs
  * Category: Logic
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the associated input of the compare value that matches the 'match' input. Returns the default value if no match can be found.

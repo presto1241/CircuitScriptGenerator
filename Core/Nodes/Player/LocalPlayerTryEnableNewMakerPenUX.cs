@@ -1,7 +1,7 @@
 /*
  * Filename: LocalPlayerTryEnableNewMakerPenUX.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Enables the new Maker Pen UX for the local player and returns true if possible. Returns false if the UX is not availble on the their platform.

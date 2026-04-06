@@ -1,7 +1,7 @@
 /*
  * Filename: Root.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Calculate the root of a given value, with the default root being 2 (meaning the square root).

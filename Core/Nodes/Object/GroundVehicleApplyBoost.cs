@@ -1,7 +1,7 @@
 /*
  * Filename: GroundVehicleApplyBoost.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Triggers a speed boost if the vehicle has enough boost fuel. You can set the amount of boost fuel required to boost in the vehicle's config menu if it is supported.

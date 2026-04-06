@@ -1,7 +1,7 @@
 /*
  * Filename: MeshPresenterGetMesh.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the mesh currently used by the Mesh Presenter
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("34e92ae3-2ad7-4d17-8430-6c8728b9a39b")]
 public class MeshPresenterGetMesh : INodeBehaviour

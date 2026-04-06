@@ -1,7 +1,7 @@
 /*
  * Filename: StudioObjectGetPropertyVector3.cs
  * Category: Misc
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the value of a Vector3 type Property defined in Rec Room Studio on a Studio Object

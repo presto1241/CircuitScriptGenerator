@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIGetWackiness.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the current wackiness for the AI
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("e1e6a881-1992-4332-bce4-f680188dfd98")]
 public class GameAIGetWackiness : INodeBehaviour

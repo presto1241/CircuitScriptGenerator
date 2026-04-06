@@ -1,7 +1,7 @@
 /*
  * Filename: ListCommunityEventVariable.cs
  * Category: List
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Reads or writes a variable that stores a list of Community Events. This variable is unique in the current scope based on its name, and defaults to an empty list

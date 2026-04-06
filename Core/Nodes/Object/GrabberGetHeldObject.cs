@@ -1,7 +1,7 @@
 /*
  * Filename: GrabberGetHeldObject.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns whether the Grabber is currently holding an object, and a reference to that object if so. If no object is held, returns Invalid Object.

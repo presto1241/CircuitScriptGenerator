@@ -1,7 +1,7 @@
 /*
  * Filename: GenAIGenerateTranscriptforAudioRecording.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Generate a transcript of an audio recording
@@ -23,7 +23,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("3e9343d0-0795-4182-97d7-c44dbe4abe1d")]
 public class GenAIGenerateTranscriptforAudioRecording : INodeBehaviour

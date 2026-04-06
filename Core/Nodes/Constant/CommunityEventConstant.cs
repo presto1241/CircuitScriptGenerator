@@ -1,7 +1,7 @@
 /*
  * Filename: CommunityEventConstant.cs
  * Category: Constant
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: A constant chip that can be configured to point at a Community Event that's happening in the future, and pipe that data into circuits

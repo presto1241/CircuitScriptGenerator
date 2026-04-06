@@ -1,7 +1,7 @@
 /*
  * Filename: CallFunctionunbound.cs
  * Category: Commonly Used
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Calls the Function Definition node with the same name in this room.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Commonly Used;
+namespace CircuitScriptGenerator.Core.Nodes.CommonlyUsed;
 
 [Node("0d2f8ac1-d0b7-427f-a261-6bf269af223f")]
 public class CallFunctionunbound : INodeBehaviour

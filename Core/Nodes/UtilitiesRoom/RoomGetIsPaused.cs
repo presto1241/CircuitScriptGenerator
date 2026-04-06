@@ -1,7 +1,7 @@
 /*
  * Filename: RoomGetIsPaused.cs
  * Category: Utilities/Room
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns true if the room is currently paused.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Utilities/Room;
+namespace CircuitScriptGenerator.Core.Nodes.UtilitiesRoom;
 
 [Node("4bf1e2ec-d926-4a3d-9994-e94ea060f290")]
 public class RoomGetIsPaused : INodeBehaviour

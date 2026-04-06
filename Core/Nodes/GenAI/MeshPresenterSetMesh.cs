@@ -1,7 +1,7 @@
 /*
  * Filename: MeshPresenterSetMesh.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets the mesh currently displayed by the Mesh Presenter
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("ce5440cf-d51d-46fb-a73a-f08679a1c89f")]
 public class MeshPresenterSetMesh : INodeBehaviour

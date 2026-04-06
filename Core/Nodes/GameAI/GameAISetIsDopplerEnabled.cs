@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISetIsDopplerEnabled.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Enables or disables the Doppler effect for the AI’s voice.
@@ -21,7 +21,7 @@ This feature only applies when 3D audio is active.
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("fe0c3ec4-7320-4857-915a-be17ba700f8b")]
 public class GameAISetIsDopplerEnabled : INodeBehaviour

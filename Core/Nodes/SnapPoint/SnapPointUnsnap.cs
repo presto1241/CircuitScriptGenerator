@@ -1,7 +1,7 @@
 /*
  * Filename: SnapPointUnsnap.cs
  * Category: Snap Point
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Unsnaps a snap point from whatever it is snapped to. Returns true if an unsnap occured.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Snap Point;
+namespace CircuitScriptGenerator.Core.Nodes.SnapPoint;
 
 [Node("8ce5df0a-afee-4e1c-841e-57d7773cba93")]
 public class SnapPointUnsnap : INodeBehaviour

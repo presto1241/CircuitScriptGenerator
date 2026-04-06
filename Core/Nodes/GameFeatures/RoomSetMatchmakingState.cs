@@ -1,7 +1,7 @@
 /*
  * Filename: RoomSetMatchmakingState.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Set whether this instance of the room is visible to Rec Room's matchmaking. If false, new players will not be directed this instance unless they are joining a friend. Useful for games where joining in progress is disruptive.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("be4decd2-56a0-46af-8e96-091261946fd9")]
 public class RoomSetMatchmakingState : INodeBehaviour

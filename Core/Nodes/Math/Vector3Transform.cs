@@ -1,7 +1,7 @@
 /*
  * Filename: Vector3Transform.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Transforms a point from local space to world space. LocalPoint is the point you want to transform, WorldOrigin is the describes where the local coordinate system is located in the world, and WorldOrientation is the rotation of the local coordinate system.

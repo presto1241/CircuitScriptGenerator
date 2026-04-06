@@ -1,7 +1,7 @@
 /*
  * Filename: For.cs
  * Category: Control Flow
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Iterates over the "From" pin (inclusive) to the "To" pin (exclusive).
@@ -21,7 +21,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Control Flow;
+namespace CircuitScriptGenerator.Core.Nodes.ControlFlow;
 
 [Node("8f945c22-988b-45d2-b7f2-409ba304fef4")]
 public class For : INodeBehaviour

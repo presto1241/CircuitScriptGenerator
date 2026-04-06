@@ -1,7 +1,7 @@
 /*
  * Filename: ChatAISendUserAudioPrompt.cs
  * Category: Chat AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sends a user audio prompt to a Chat AI.
@@ -24,7 +24,7 @@ User prompts are issued from the user's perspective and represent conversational
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Chat AI;
+namespace CircuitScriptGenerator.Core.Nodes.ChatAI;
 
 [Node("7bfb021b-e3a5-4222-9bac-7500bdeb6135")]
 public class ChatAISendUserAudioPrompt : INodeBehaviour

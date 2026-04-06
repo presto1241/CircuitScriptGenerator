@@ -1,7 +1,7 @@
 /*
  * Filename: RangedWeaponSetProjectileLifetime.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Modifies how long in seconds projectiles from this weapon will stick around before vanishing if they haven't hit anything. For sticky projectiles like the ones fired from a Bow or Crossbow, this includes the time after they've hit a surface as well. Works with both RRO Ranged Weapon Props (e.g. the Laser Pistol) and the Projectile Launcher.

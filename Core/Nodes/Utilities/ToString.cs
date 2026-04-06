@@ -1,7 +1,7 @@
 /*
  * Filename: ToString.cs
  * Category: Utilities
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Converts the input value to the string type. Example: the integer input 10 would output "10" as a string. Helpful for debugging purposes.

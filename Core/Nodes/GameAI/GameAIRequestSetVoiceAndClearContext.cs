@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIRequestSetVoiceAndClearContext.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets the voice for the Game AI, which requires clearing the conversation
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("eece1a8e-103a-4666-b9a8-b04e626f993f")]
 public class GameAIRequestSetVoiceAndClearContext : INodeBehaviour

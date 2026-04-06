@@ -1,7 +1,7 @@
 /*
  * Filename: RespawnPointRemoveAvoidTag.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Remove a player tag from the target respawn point's "avoid" list. It will no longer be avoided by players with the specified tag who are respawned using Respawn Point Respawn Player

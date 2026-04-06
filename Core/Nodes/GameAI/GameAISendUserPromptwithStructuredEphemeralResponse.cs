@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISendUserPromptwithStructuredEphemeralResponse.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Generates data in the provided format. Use the prompt and port descriptions to guide the AI on how to populate each value.
@@ -22,7 +22,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("06b8e840-e45f-4e92-8129-6985293ba2f0")]
 public class GameAISendUserPromptwithStructuredEphemeralResponse : INodeBehaviour

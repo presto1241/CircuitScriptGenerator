@@ -1,7 +1,7 @@
 /*
  * Filename: PlayersGetCurrentRoomBoostCounts.cs
  * Category: Room Boost
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the number of active room boosts in the current room contributed by the specified players as a list.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Room Boost;
+namespace CircuitScriptGenerator.Core.Nodes.RoomBoost;
 
 [Node("73c02a41-f777-46b7-a0ea-bba63fadc73b")]
 public class PlayersGetCurrentRoomBoostCounts : INodeBehaviour

@@ -1,7 +1,7 @@
 /*
  * Filename: CombatantSplit.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Splits the input Combatant into Player and AI types. Use this off of Combatant outputs to directly access the Player or AI.

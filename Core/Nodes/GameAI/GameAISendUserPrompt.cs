@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISendUserPrompt.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sends a user prompt to the Game AI without expecting a reply.
@@ -25,7 +25,7 @@ User prompts are issued from the user's perspective and represent conversational
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("4e10248f-c827-4283-bc16-5f6503783e3d")]
 public class GameAISendUserPrompt : INodeBehaviour

@@ -1,7 +1,7 @@
 /*
  * Filename: RecRoomObjectTryGetPropertyUnbound.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns whether or not an object has this property, and if so what the value of the property is. If the object does not have the property, it will return the Default Value port as the property value instead.

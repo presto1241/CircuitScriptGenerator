@@ -1,7 +1,7 @@
 /*
  * Filename: PlayerHasRoomBadge.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Checks if a player has a specific Room Badge.
@@ -27,7 +27,7 @@ The Room Badge must be associated with the current room, and the Player must cur
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("b77639f8-1347-4f3a-bbfb-e237f788083c")]
 public class PlayerHasRoomBadge : INodeBehaviour

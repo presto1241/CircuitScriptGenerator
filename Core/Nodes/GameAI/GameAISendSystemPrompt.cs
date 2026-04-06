@@ -1,7 +1,7 @@
 /*
  * Filename: GameAISendSystemPrompt.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sends a system prompt to the Game AI without expecting a reply.
@@ -25,7 +25,7 @@ System prompts are issued from the AI’s perspective, not the user’s, and are
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("60e0626d-e55e-49e9-a8d6-860ccf6c9cfa")]
 public class GameAISendSystemPrompt : INodeBehaviour

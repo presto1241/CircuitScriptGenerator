@@ -1,7 +1,7 @@
 /*
  * Filename: RangedWeaponPropSetProjectileImpactForceMultiplier.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets a multiplier to modify the built-in impact force when a bullet from this Ranged Weapon Prop hits an object.

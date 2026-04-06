@@ -1,7 +1,7 @@
 /*
  * Filename: LocalPlayerHasMesh.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: True if the local player has the mesh; otherwise, false.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("360c50ef-b7bf-4430-ad0f-86995c994e76")]
 public class LocalPlayerHasMesh : INodeBehaviour

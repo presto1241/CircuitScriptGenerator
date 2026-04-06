@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIGetIsAllowedDeprecated.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns whether or not the Game AI is available to use in the room.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("592510bd-21f2-4bd5-86ae-db06fabb4358")]
 public class GameAIGetIsAllowedDeprecated : INodeBehaviour

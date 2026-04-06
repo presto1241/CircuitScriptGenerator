@@ -1,7 +1,7 @@
 /*
  * Filename: GroundVehicleGetWheelFrictionMultiplier.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Wheel friction affects how good the wheels are at gripping the ground. Lower values decrease traction and make the wheels slip more. Higher values can increase traction and make the wheels slip less. The default wheel friction is 1.

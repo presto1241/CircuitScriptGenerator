@@ -1,7 +1,7 @@
 /*
  * Filename: AwardRoomKey.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Unlocks a room key for the target player. Multiple award room key requests from the same client are sent in bulk with a one-second cooldown.

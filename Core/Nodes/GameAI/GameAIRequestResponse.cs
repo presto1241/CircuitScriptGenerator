@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIRequestResponse.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Triggers a response from the Game AI without providing any prompt.
@@ -26,7 +26,7 @@ If Wait for Audio is enabled, the On Response or Audio actions will wait for the
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("3a615546-1239-4e0d-b2e4-7649c12b3d51")]
 public class GameAIRequestResponse : INodeBehaviour

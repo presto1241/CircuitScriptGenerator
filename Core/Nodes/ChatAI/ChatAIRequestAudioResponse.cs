@@ -1,7 +1,7 @@
 /*
  * Filename: ChatAIRequestAudioResponse.cs
  * Category: Chat AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Requests an audio response from a Chat AI
@@ -27,7 +27,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Chat AI;
+namespace CircuitScriptGenerator.Core.Nodes.ChatAI;
 
 [Node("69d2f9d6-769d-4d86-b38a-7951ddeabc43")]
 public class ChatAIRequestAudioResponse : INodeBehaviour

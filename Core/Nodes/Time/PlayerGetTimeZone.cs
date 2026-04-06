@@ -1,7 +1,7 @@
 /*
  * Filename: PlayerGetTimeZone.cs
  * Category: Time
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns the offset of the given player's local time zone from UTC in seconds.

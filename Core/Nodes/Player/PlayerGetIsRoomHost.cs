@@ -1,7 +1,7 @@
 /*
  * Filename: PlayerGetIsRoomHost.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Outputs True if the input Player is one of the current room's hosts.

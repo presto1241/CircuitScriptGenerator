@@ -1,7 +1,7 @@
 /*
  * Filename: GameAIRemoveConversationItem.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Deletes a specific memory item from the AI's internal conversation state. This action prevents the AI from recalling or referencing the removed information in future interactions.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("9d59abab-5f87-48ed-a9ab-cddef8c1b23d")]
 public class GameAIRemoveConversationItem : INodeBehaviour

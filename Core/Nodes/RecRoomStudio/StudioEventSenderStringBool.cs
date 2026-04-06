@@ -1,7 +1,7 @@
 /*
  * Filename: StudioEventSenderStringBool.cs
  * Category: Rec Room Studio
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Fires a custom Unity Event defined in Rec Room Studio on a Studio Object
@@ -21,7 +21,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Rec Room Studio;
+namespace CircuitScriptGenerator.Core.Nodes.RecRoomStudio;
 
 [Node("91f2d5db-f6c6-4ef0-b134-056fa57c953d")]
 public class StudioEventSenderStringBool : INodeBehaviour

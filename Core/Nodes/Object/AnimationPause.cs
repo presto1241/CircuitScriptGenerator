@@ -1,7 +1,7 @@
 /*
  * Filename: AnimationPause.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Pauses the Animation Controller. The Animation Controller resumes at the same moment next time play is activated.

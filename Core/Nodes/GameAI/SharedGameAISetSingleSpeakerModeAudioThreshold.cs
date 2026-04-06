@@ -1,7 +1,7 @@
 /*
  * Filename: SharedGameAISetSingleSpeakerModeAudioThreshold.cs
  * Category: Game AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Sets the minimum audio threshold for Single Speaker mode in Shared Game AI.
@@ -19,7 +19,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game AI;
+namespace CircuitScriptGenerator.Core.Nodes.GameAI;
 
 [Node("997923db-d2f1-4905-aa4c-4bbb5c06a8e0")]
 public class SharedGameAISetSingleSpeakerModeAudioThreshold : INodeBehaviour

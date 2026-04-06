@@ -1,7 +1,7 @@
 /*
  * Filename: BitOr.cs
  * Category: Math
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Computes a bitwise OR. The result has a bit set for every bit that is set in either of the inputs.

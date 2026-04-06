@@ -1,7 +1,7 @@
 /*
  * Filename: RoomSunPlayerOverride.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Overrides the given player's room sun state to the given configuration. This will take precedent over the room's shared sun state.
@@ -22,7 +22,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("6601dc45-6a5d-4a4d-986a-c3f265de9971")]
 public class RoomSunPlayerOverride : INodeBehaviour

@@ -1,7 +1,7 @@
 /*
  * Filename: GenAISFXAudio.cs
  * Category: Gen AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Generate and store custom Gen AI sfx for use with the Audio Player.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Gen AI;
+namespace CircuitScriptGenerator.Core.Nodes.GenAI;
 
 [Node("f3dc2f56-e323-4035-8776-2d040b294fee")]
 public class GenAISFXAudio : INodeBehaviour

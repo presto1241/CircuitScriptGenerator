@@ -1,7 +1,7 @@
 /*
  * Filename: RangedWeaponPropSetTotalAmmunition.cs
  * Category: Object
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Modifies the total ammo of an RRO Ranged Weapon Prop (like a Laser Pistol). For weapons that have magazines, this accounts for both the magazine ammo and the backup ammo when they reload their magazine.

@@ -1,7 +1,7 @@
 /*
  * Filename: FunctionDefinition.cs
  * Category: Commonly Used
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Defines a function.
@@ -17,7 +17,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Commonly Used;
+namespace CircuitScriptGenerator.Core.Nodes.CommonlyUsed;
 
 [Node("49937daa-4f6d-442c-a0d8-0095b675250d")]
 public class FunctionDefinition : INodeBehaviour

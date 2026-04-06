@@ -1,7 +1,7 @@
 /*
  * Filename: RoomFogClearPlayerOverride.cs
  * Category: Game Features
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Clears the given player's local room fog state override.
@@ -20,7 +20,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Game Features;
+namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 
 [Node("415b92fb-53a3-4036-97ee-75146dcfd637")]
 public class RoomFogClearPlayerOverride : INodeBehaviour

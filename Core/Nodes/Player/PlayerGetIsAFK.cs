@@ -1,7 +1,7 @@
 /*
  * Filename: PlayerGetIsAFK.cs
  * Category: Player
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Returns whether or not the player is AFK. This occurs when the player has not been active in the room for some time.

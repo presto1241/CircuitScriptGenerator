@@ -1,7 +1,7 @@
 /*
  * Filename: ChatAIRequestStructuredResponse.cs
  * Category: Chat AI
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Generates data in the provided format. Use the prompt and port descriptions to guide the AI on how to populate each value.
@@ -26,7 +26,7 @@
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
-namespace CircuitScriptGenerator.Core.Nodes.Chat AI;
+namespace CircuitScriptGenerator.Core.Nodes.ChatAI;
 
 [Node("c9e56952-b64d-49ef-b564-a38c1695eeb6")]
 public class ChatAIRequestStructuredResponse : INodeBehaviour

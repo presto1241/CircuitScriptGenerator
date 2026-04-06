@@ -1,7 +1,7 @@
 /*
  * Filename: GetTrialItemQuantity.cs
  * Category: Misc
- * Created Date: 2026-04-05T23:55:26+00:00
+ * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
  * Description: Get the number of unowned avatar items the local player is currently wearing
