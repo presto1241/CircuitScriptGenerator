@@ -15,6 +15,7 @@ public partial class App : Application
     {
         AvaloniaXamlLoader.Load(this);
         CircuitScriptGenerator.Core.Api.Nodes.NodeStorage.LoadNodes();
+        CircuitScriptGenerator.Core.Api.Generation.ScriptGenerator.GetTemplatePath(Core.Api.Generation.GenerationTemplate.Unity);
     }
 
     public override void OnFrameworkInitializationCompleted()

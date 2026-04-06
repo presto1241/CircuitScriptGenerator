@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Scriban" Version="7.0.6" />
+    
+    <ContentWithTargetPath Include="Templates\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Templates\%(RecursiveDir)\%(Filename)%(Extension)</TargetPath>
+    </ContentWithTargetPath>
   </ItemGroup>
 
 </Project>
