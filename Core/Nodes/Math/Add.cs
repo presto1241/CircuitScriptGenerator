@@ -1,9 +1,18 @@
 /*
  * Filename: Add.cs
- * Created Date: Sunday, April 5th 2026, 1:58:29 am
+ * Category: Math
+ * Created Date: 2026-04-05T23:55:26+00:00
  * Author: Preston
  * 
- * Description: Add any inputs together to generate an output.
+ * Description: Computes the sum of two or more inputs.
+ * Types: (int | float | Vector3)
+ * 
+ * INPUTS: 
+ * Value (T)
+ *
+ * OUTPUTS: 
+ * Sum (T)
+ *
  */
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
