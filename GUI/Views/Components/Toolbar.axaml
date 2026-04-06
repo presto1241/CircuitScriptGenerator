@@ -1,8 +1,14 @@
 <!-- Toolbar.axaml -->
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             x:Class="CircuitScriptGenerator.GUI.Views.Components.Toolbar">
+             xmlns:vm="using:CircuitScriptGenerator.GUI.ViewModels.Components"
+             x:Class="CircuitScriptGenerator.GUI.Views.Components.Toolbar"
+             x:DataType="vm:ToolbarViewModel">
   
+  <UserControl.DataContext>
+      <vm:ToolbarViewModel/>
+  </UserControl.DataContext>
+
   <StackPanel Orientation="Horizontal"
               Spacing="1"
               Background="#222"
@@ -11,7 +17,9 @@
       <Button x:Name="File" Content="File" Classes="Toolbar">
         <Button.Flyout>
           <MenuFlyout Placement="BottomEdgeAlignedLeft">
-            <MenuItem Header="Open" />
+            <MenuItem Header="Open" 
+                      Command="{Binding OpenFileCommand}"
+                      CommandParameter="{Binding $parent[Window]}" />
             <MenuItem Header="Save" />
           </MenuFlyout>
         </Button.Flyout>

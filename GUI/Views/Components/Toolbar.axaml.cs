@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using CircuitScriptGenerator.Core;
 
 namespace CircuitScriptGenerator.GUI.Views.Components;
 
