@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Avalonia.Controls;
 using Avalonia.Platform.Storage;
 using CircuitScriptGenerator.Core;
+using CircuitScriptGenerator.Core.Api.Logging;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
@@ -22,22 +24,22 @@ public partial class ToolbarViewModel : ViewModelBase
     {
         if (topLevel == null) return;
 
-        List<FilePickerFileType> types = new ()
-        {
-            new FilePickerFileType(".protobuf"),
-            new FilePickerFileType(".json")
-        };
-
         var files = await topLevel.StorageProvider.OpenFilePickerAsync(new Avalonia.Platform.Storage.FilePickerOpenOptions
         {
             Title = "Open a file",
-            FileTypeFilter = types,
             AllowMultiple = false
         });
 
         // @todo: Open an error notification to select a file.
-        if (files.Count <= 1) return;
+        if (files.Count <= 0)
+        {
+            Logger.Log("ToolbarViewModel", "No file was selected.", LogLevel.Warn);
+        }
 
-        await CircuitsInstance.LoadAsync(files[0].Path.AbsolutePath);
+        string filePath = files[0].Path.AbsolutePath.Replace("%20", " ");
+
+        Logger.Log("ToolbarViewModel", "Going to load file: " + filePath);
+        CircuitsInstance.Load(filePath, out var circuitsInstance);
+        Logger.Log("ToolbarViewModel", "Loaded file: " + filePath);
     }
 }

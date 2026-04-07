@@ -6,6 +6,7 @@
  * Description: An interface that lets nodes easily be called from other scripts.
  */
 using System.Reflection;
+using CircuitScriptGenerator.Core.Api.Logging;
 using CircuitScriptGenerator.Core.Data;
 
 namespace CircuitScriptGenerator.Core.Api.Nodes;
@@ -31,7 +32,7 @@ public static class NodeStorage
                 !t.IsAbstract &&
                 !t.IsInterface);
 
-        Console.WriteLine($"[NodeStorage] Found {typesWithAttribute.Count()} nodes.");
+        Logger.Log("NodeStorage", $"Found {typesWithAttribute.Count()} nodes.");
 
         if (_loadedNodes != null) _loadedNodes.Clear();
         else _loadedNodes = new();
@@ -41,7 +42,7 @@ public static class NodeStorage
             var attribute = type.GetCustomAttribute<NodeAttribute>()!;
             var behaviour = (INodeBehaviour)Activator.CreateInstance(type)!;
 
-            Console.WriteLine($"[NodeStorage] Adding {behaviour.GetName()} : {attribute.AssetId}");
+            //Console.WriteLine($"[NodeStorage] Adding {behaviour.GetName()} : {attribute.AssetId}");
             _loadedNodes.Add(attribute.AssetId, behaviour);
         }
     }

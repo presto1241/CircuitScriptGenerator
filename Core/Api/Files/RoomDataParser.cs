@@ -5,7 +5,7 @@
  * 
  * Description: 
  */
-namespace CircuitScriptGenerator.Core.Api.Parsing;
+namespace CircuitScriptGenerator.Core.Api.Files;
 
 public static class RoomDataParser
 {

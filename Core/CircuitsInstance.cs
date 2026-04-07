@@ -6,6 +6,8 @@
  * Description: This is the main class for the CircuitScriptGenerator library.
  * This class contains all the data needed to view and export circuit graphs.
  */
+using CircuitScriptGenerator.Core.Api.Files;
+using CircuitScriptGenerator.Core.Api.Logging;
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
 
@@ -23,11 +25,7 @@ public class CircuitsInstance
     /// <returns></returns>
     public static bool Load(string filePath, out CircuitsInstance? instance)
     {
-        instance = null;
-        if (!File.Exists(filePath)) return false;
-
-        // @todo: Verify you can load the file
-
+        instance = new CircuitsInstance(filePath);
         return true;
     }
 
@@ -38,16 +36,10 @@ public class CircuitsInstance
     /// <param name="filePath"></param>
     /// <param name="progress"></param>
     /// <returns></returns>
-    public async static Task<CircuitsInstance?> LoadAsync(
-        string filePath, 
-        IProgress<float>? progress = null
-        )
+    public async static Task<CircuitsInstance?> LoadAsync(string filePath)
     {
-        CircuitsInstance? instance = null;
         if (!File.Exists(filePath)) return null;
-
-        // @todo: Verify you can load the file
-
+        CircuitsInstance? instance = new CircuitsInstance(filePath);
         return instance;
     }
     #endregion
@@ -63,10 +55,24 @@ public class CircuitsInstance
     /// Construct a new CircuitsInstance with the rooms/inventions byte[] data.
     /// </summary>
     /// <param name="data">The room data</param>
-    public CircuitsInstance(byte[] data)
+    public CircuitsInstance(string filePath)
     {
+        // @todo: Move loading outside of this class into the upper load functions
+        // Move this into being a data storage class.
+        Name = string.Empty;
+        Logger.Log("CircuitsInstance", "Loading file at: " + filePath, LogLevel.Debug);
+
         // Lazy loading nodes here :)
         if (!NodeStorage.GetNodesLoaded()) NodeStorage.LoadNodes();
+
+        try
+        {
+            FileLoader.LoadGraphDataFromZip(filePath);
+        }
+        catch (Exception e)
+        {
+            Logger.Log("CircuitsInstance", "Error loading file: " + e.Message, LogLevel.Error);
+        }
         
         // @todo: Work on parsing data to usable data.
     }
