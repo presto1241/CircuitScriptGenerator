@@ -6,7 +6,7 @@
  * Description: This is the main class for the CircuitScriptGenerator library.
  * This class contains all the data needed to view and export circuit graphs.
  */
-using CircuitScriptGenerator.Core.Api.Files;
+using CircuitScriptGenerator.Core.Api.Parsing;
 using CircuitScriptGenerator.Core.Api.Logging;
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
