@@ -57,7 +57,7 @@ public class RoomDataParser : IDataParser
         /*
         for (int i = 0; i < roomData.CircuitV2Data.Root.NodeDatas.Count; i++)
         {
-            var node = roomData.CircuitV2Data.Root.NodeDatas[i];
+            var node *= roomData.CircuitV2Data.Root.NodeDatas[i];
             Logger.Log("RoomDataParser", $"Subroom {roomData.SubRoomId} : Loading node id {node.NodeId.Value}");
         }
         */
