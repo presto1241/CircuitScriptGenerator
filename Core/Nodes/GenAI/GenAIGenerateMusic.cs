@@ -34,6 +34,11 @@ public class GenAIGenerateMusic : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gen AI Generate Music";
     public string GetVariableQualifiedName() => "genAIGenerateMusic";
 }

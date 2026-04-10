@@ -27,6 +27,11 @@ public class GetUpVector : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Up Vector";
     public string GetVariableQualifiedName() => "getUpVector";
 }

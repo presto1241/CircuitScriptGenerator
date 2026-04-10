@@ -31,6 +31,11 @@ public class PlayerGetEquippedObjects : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Equipped Objects";
     public string GetVariableQualifiedName() => "playerGetEquippedObjects";
 }

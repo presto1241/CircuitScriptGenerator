@@ -27,6 +27,11 @@ public class RecRoomObjectGetRootObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Get Root Object";
     public string GetVariableQualifiedName() => "recRoomObjectGetRootObject";
 }

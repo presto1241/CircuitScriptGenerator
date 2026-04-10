@@ -28,6 +28,11 @@ public class SeatUnseatPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Seat Unseat Player";
     public string GetVariableQualifiedName() => "seatUnseatPlayer";
 }

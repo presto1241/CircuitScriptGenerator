@@ -33,6 +33,11 @@ public class AISetLineofSightParameters : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Set Line of Sight Parameters";
     public string GetVariableQualifiedName() => "aISetLineofSightParameters";
 }

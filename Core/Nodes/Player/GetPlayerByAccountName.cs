@@ -27,6 +27,11 @@ public class GetPlayerByAccountName : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Player By Account Name";
     public string GetVariableQualifiedName() => "getPlayerByAccountName";
 }

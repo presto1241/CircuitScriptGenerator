@@ -34,6 +34,11 @@ public class CustomConsumableCreateTrinketforLocalPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Custom Consumable Create Trinket for Local Player";
     public string GetVariableQualifiedName() => "customConsumableCreateTrinketforLocalPlayer";
 }

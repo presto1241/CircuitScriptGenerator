@@ -28,6 +28,11 @@ public class LocalPlayerClearRoomOfferNameOverride : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Clear Room Offer Name Override";
     public string GetVariableQualifiedName() => "localPlayerClearRoomOfferNameOverride";
 }

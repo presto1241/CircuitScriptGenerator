@@ -27,6 +27,11 @@ public class GetHUDElementMaxValue : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get HUD Element Max Value";
     public string GetVariableQualifiedName() => "getHUDElementMaxValue";
 }

@@ -27,6 +27,11 @@ public class LocalPlayerGazeOrigin : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Gaze Origin";
     public string GetVariableQualifiedName() => "localPlayerGazeOrigin";
 }

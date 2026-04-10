@@ -28,6 +28,11 @@ public class ListGetElement : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Get Element";
     public string GetVariableQualifiedName() => "listGetElement";
 }

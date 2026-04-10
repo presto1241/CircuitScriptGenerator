@@ -28,6 +28,11 @@ public class LocalPlayerRequestThirdPerson : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Request Third Person";
     public string GetVariableQualifiedName() => "localPlayerRequestThirdPerson";
 }

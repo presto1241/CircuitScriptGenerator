@@ -31,6 +31,11 @@ public class PlayerUnequipInventoryItem : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Unequip Inventory Item";
     public string GetVariableQualifiedName() => "playerUnequipInventoryItem";
 }

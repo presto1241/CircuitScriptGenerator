@@ -27,6 +27,11 @@ public class GetPlayerByDisplayName : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Player By Display Name";
     public string GetVariableQualifiedName() => "getPlayerByDisplayName";
 }

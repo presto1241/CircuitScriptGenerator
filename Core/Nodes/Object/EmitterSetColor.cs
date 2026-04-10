@@ -29,6 +29,11 @@ public class EmitterSetColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Emitter Set Color";
     public string GetVariableQualifiedName() => "emitterSetColor";
 }

@@ -28,6 +28,11 @@ public class LocalPlayerTryUnequipMakerPen : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Try Unequip Maker Pen";
     public string GetVariableQualifiedName() => "localPlayerTryUnequipMakerPen";
 }

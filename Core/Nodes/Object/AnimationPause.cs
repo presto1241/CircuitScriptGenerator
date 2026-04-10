@@ -28,6 +28,11 @@ public class AnimationPause : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Animation Pause";
     public string GetVariableQualifiedName() => "animationPause";
 }

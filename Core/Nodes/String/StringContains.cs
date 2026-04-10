@@ -28,6 +28,11 @@ public class StringContains : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "String Contains";
     public string GetVariableQualifiedName() => "stringContains";
 }

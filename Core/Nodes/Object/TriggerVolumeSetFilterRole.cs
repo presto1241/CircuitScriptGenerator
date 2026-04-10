@@ -29,6 +29,11 @@ public class TriggerVolumeSetFilterRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trigger Volume Set Filter Role";
     public string GetVariableQualifiedName() => "triggerVolumeSetFilterRole";
 }

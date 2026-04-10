@@ -29,6 +29,11 @@ public class RangedWeaponSetColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Set Color";
     public string GetVariableQualifiedName() => "rangedWeaponSetColor";
 }

@@ -27,6 +27,11 @@ public class ToCombatant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "To Combatant";
     public string GetVariableQualifiedName() => "toCombatant";
 }

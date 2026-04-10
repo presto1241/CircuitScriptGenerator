@@ -27,6 +27,11 @@ public class Vector3Inverse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Inverse";
     public string GetVariableQualifiedName() => "vector3Inverse";
 }

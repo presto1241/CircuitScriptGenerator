@@ -32,6 +32,11 @@ public class HamTowerAISendUserPromptwithResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ham Tower AI Send User Prompt with Response";
     public string GetVariableQualifiedName() => "hamTowerAISendUserPromptwithResponse";
 }

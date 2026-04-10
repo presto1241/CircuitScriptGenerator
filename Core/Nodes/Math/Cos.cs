@@ -27,6 +27,11 @@ public class Cos : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Cos";
     public string GetVariableQualifiedName() => "cos";
 }

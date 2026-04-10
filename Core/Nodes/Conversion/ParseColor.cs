@@ -28,6 +28,11 @@ public class ParseColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Parse Color";
     public string GetVariableQualifiedName() => "parseColor";
 }

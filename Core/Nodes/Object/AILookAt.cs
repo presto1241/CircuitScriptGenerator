@@ -30,6 +30,11 @@ public class AILookAt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Look At";
     public string GetVariableQualifiedName() => "aILookAt";
 }

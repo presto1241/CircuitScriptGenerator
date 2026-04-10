@@ -27,6 +27,11 @@ public class PlayerRightHandIsClosed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Right Hand Is Closed";
     public string GetVariableQualifiedName() => "playerRightHandIsClosed";
 }

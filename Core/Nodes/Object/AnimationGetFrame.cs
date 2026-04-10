@@ -27,6 +27,11 @@ public class AnimationGetFrame : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Animation Get Frame";
     public string GetVariableQualifiedName() => "animationGetFrame";
 }

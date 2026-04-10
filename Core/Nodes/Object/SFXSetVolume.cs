@@ -29,6 +29,11 @@ public class SFXSetVolume : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "SFX Set Volume";
     public string GetVariableQualifiedName() => "sFXSetVolume";
 }

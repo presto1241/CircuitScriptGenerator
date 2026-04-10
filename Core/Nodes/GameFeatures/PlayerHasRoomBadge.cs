@@ -37,6 +37,11 @@ public class PlayerHasRoomBadge : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Has Room Badge";
     public string GetVariableQualifiedName() => "playerHasRoomBadge";
 }

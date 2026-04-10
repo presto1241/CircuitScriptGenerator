@@ -30,6 +30,11 @@ public class ForEach : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "For Each";
     public string GetVariableQualifiedName() => "forEach";
 }

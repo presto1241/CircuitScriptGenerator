@@ -29,6 +29,11 @@ public class PlayerSetSprintInputEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Set Sprint Input Enabled";
     public string GetVariableQualifiedName() => "playerSetSprintInputEnabled";
 }

@@ -27,6 +27,11 @@ public class ArtCanvasToTextureDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Art Canvas To Texture (Deprecated)";
     public string GetVariableQualifiedName() => "artCanvasToTextureDeprecated";
 }

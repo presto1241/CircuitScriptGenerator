@@ -27,6 +27,11 @@ public class ImageGenerationAIModel : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Image Generation AI Model";
     public string GetVariableQualifiedName() => "imageGenerationAIModel";
 }

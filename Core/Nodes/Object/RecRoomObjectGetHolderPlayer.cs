@@ -28,6 +28,11 @@ public class RecRoomObjectGetHolderPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Get Holder Player";
     public string GetVariableQualifiedName() => "recRoomObjectGetHolderPlayer";
 }

@@ -29,6 +29,11 @@ public class ColorToRGB : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Color To RGB";
     public string GetVariableQualifiedName() => "colorToRGB";
 }

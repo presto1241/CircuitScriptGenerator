@@ -32,6 +32,11 @@ public class GunHandleApplyRecoil : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Apply Recoil";
     public string GetVariableQualifiedName() => "gunHandleApplyRecoil";
 }

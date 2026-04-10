@@ -29,6 +29,11 @@ public class ListintVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<int> Variable";
     public string GetVariableQualifiedName() => "listintVariable";
 }

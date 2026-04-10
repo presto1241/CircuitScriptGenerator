@@ -28,6 +28,11 @@ public class ValueStringSwitch : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Value String Switch";
     public string GetVariableQualifiedName() => "valueStringSwitch";
 }

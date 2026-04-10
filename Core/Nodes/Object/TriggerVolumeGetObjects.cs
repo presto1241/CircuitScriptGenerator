@@ -27,6 +27,11 @@ public class TriggerVolumeGetObjects : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trigger Volume Get Objects";
     public string GetVariableQualifiedName() => "triggerVolumeGetObjects";
 }

@@ -28,6 +28,11 @@ public class LessThan : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Less Than";
     public string GetVariableQualifiedName() => "lessThan";
 }

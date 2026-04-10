@@ -31,6 +31,11 @@ public class RoomBackgroundObjectsPlayerOverride : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Background Objects Player Override";
     public string GetVariableQualifiedName() => "roomBackgroundObjectsPlayerOverride";
 }

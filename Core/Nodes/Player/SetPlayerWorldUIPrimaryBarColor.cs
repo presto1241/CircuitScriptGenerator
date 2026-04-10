@@ -29,6 +29,11 @@ public class SetPlayerWorldUIPrimaryBarColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Player World UI Primary Bar Color";
     public string GetVariableQualifiedName() => "setPlayerWorldUIPrimaryBarColor";
 }

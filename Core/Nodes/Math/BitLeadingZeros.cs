@@ -27,6 +27,11 @@ public class BitLeadingZeros : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Bit Leading Zeros";
     public string GetVariableQualifiedName() => "bitLeadingZeros";
 }

@@ -27,6 +27,11 @@ public class RemoteVideoPlayerGetIsPlaying : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Remote Video Player Get Is Playing";
     public string GetVariableQualifiedName() => "remoteVideoPlayerGetIsPlaying";
 }

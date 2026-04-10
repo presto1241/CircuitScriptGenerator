@@ -27,6 +27,11 @@ public class RecRoomObjectGetFirstwithTag : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Get First with Tag";
     public string GetVariableQualifiedName() => "recRoomObjectGetFirstwithTag";
 }

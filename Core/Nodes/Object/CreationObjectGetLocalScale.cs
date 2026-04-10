@@ -27,6 +27,11 @@ public class CreationObjectGetLocalScale : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Creation Object Get Local Scale";
     public string GetVariableQualifiedName() => "creationObjectGetLocalScale";
 }

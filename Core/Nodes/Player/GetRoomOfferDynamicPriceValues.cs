@@ -29,6 +29,11 @@ public class GetRoomOfferDynamicPriceValues : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Room Offer Dynamic Price Values";
     public string GetVariableQualifiedName() => "getRoomOfferDynamicPriceValues";
 }

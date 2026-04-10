@@ -29,6 +29,11 @@ public class PistonSetTargetDistance : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Piston Set Target Distance";
     public string GetVariableQualifiedName() => "pistonSetTargetDistance";
 }

@@ -27,6 +27,11 @@ public class LocalPlayerGetIsDeveloper : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Get Is Developer";
     public string GetVariableQualifiedName() => "localPlayerGetIsDeveloper";
 }

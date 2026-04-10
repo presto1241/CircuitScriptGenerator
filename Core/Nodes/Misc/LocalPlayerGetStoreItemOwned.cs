@@ -27,6 +27,11 @@ public class LocalPlayerGetStoreItemOwned : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Get Store Item Owned";
     public string GetVariableQualifiedName() => "localPlayerGetStoreItemOwned";
 }

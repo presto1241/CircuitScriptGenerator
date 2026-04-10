@@ -27,6 +27,11 @@ public class RoomCurrencyConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Currency Constant";
     public string GetVariableQualifiedName() => "roomCurrencyConstant";
 }

@@ -29,6 +29,11 @@ public class MeshPresenterCopyMeshToOtherMeshPresenter : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mesh Presenter Copy Mesh To Other Mesh Presenter";
     public string GetVariableQualifiedName() => "meshPresenterCopyMeshToOtherMeshPresenter";
 }

@@ -27,6 +27,11 @@ public class IsRecRoomObjectofType : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Is Rec Room Object of Type";
     public string GetVariableQualifiedName() => "isRecRoomObjectofType";
 }

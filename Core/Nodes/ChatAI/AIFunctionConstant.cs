@@ -27,6 +27,11 @@ public class AIFunctionConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Function Constant";
     public string GetVariableQualifiedName() => "aIFunctionConstant";
 }

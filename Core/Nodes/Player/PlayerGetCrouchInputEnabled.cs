@@ -27,6 +27,11 @@ public class PlayerGetCrouchInputEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Crouch Input Enabled";
     public string GetVariableQualifiedName() => "playerGetCrouchInputEnabled";
 }

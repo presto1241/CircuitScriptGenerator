@@ -29,6 +29,11 @@ public class GroundVehicleAddBoostFuel : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ground Vehicle Add Boost Fuel";
     public string GetVariableQualifiedName() => "groundVehicleAddBoostFuel";
 }

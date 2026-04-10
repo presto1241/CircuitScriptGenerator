@@ -27,6 +27,11 @@ public class RoomOfferGetImage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Offer Get Image";
     public string GetVariableQualifiedName() => "roomOfferGetImage";
 }

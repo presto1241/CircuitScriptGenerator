@@ -29,6 +29,11 @@ public class ExplosionEmitterSetDamage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Explosion Emitter Set Damage";
     public string GetVariableQualifiedName() => "explosionEmitterSetDamage";
 }

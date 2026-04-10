@@ -29,6 +29,11 @@ public class GoToRoom : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Go To Room";
     public string GetVariableQualifiedName() => "goToRoom";
 }

@@ -6,16 +6,6 @@
  * Description: This is a port on a chip.
  */
 namespace CircuitScriptGenerator.Core.Data;
-
-/// <summary>
-/// An Enum to determine if the port is an input or output port.
-/// </summary>
-public enum PortDirection
-{
-    Input,
-    Output
-}
-
 /// <summary>
 /// An enum to define what type of port it is.
 /// </summary>
@@ -31,6 +21,7 @@ public enum PortType
 /// </summary>
 internal interface IPortValue
 {
+    void SetValue(object value);
     object GetValue();
     Type ValueType { get; }
 }
@@ -41,7 +32,7 @@ internal interface IPortValue
 /// <typeparam name="T"></typeparam>
 internal class PortValue<T> : IPortValue
 {
-    public T Value { get; }
+    public T Value { get; private set; }
 
     public PortValue(T value)
     {
@@ -49,6 +40,7 @@ internal class PortValue<T> : IPortValue
     }
 
     public object GetValue() => Value!;
+    public void SetValue(object value) => Value = (T)value;
 
     public Type ValueType => typeof(T);
 }
@@ -59,18 +51,27 @@ internal class PortValue<T> : IPortValue
 /// </summary>
 public class Port
 {
-    public PortDirection PortDirection { get; private set; }
-    public PortType PortType { get; private set; }
+    /// <summary>
+    /// A possible reference between a connection of an output to multiple input ports
+    /// </summary>
+    public Connection? ConnectionReference { get; }
 
     /// <summary>
-    /// When the code is being generated, this variable is used to store the variable name.
+    /// A way to define if this port is a constant or a connection
+    /// </summary>
+    public PortType PortType { get; private set; }
+
+    public List<Type> SupportedTypes { get; private set; }
+
+    /// <summary>
+    /// When the code is being generated, this variable is used to store the variable name
     /// </summary>
     public string VariableName = string.Empty;
 
-    private IPortValue _value;
+    private IPortValue? _value;
 
     /// <summary>
-    /// Create a new IPortValue object based on the object given.
+    /// Create a new IPortValue object based on the object given
     /// </summary>
     /// <param name="value"></param>
     /// <returns></returns>
@@ -81,17 +82,16 @@ public class Port
     }
 
     /// <summary>
-    /// Construct a new port with the data, direction, and type.
+    /// Construct a new port with the data, direction, and type
     /// </summary>
     /// <param name="data">The data of the port</param>
     /// <param name="direction">The direction of the port</param>
     /// <param name="portType">The type of port</param>
-    public Port(object data, PortDirection direction, PortType portType)
+    public Port(List<Type> supportedTypes, Connection? connectionReference, PortType portType)
     {
-        PortDirection = direction;
+        ConnectionReference = connectionReference;
         PortType = portType;
-
-        _value = CreatePortData(data);
+        SupportedTypes = supportedTypes;
     }
 
     /// <summary>
@@ -99,8 +99,9 @@ public class Port
     /// </summary>
     /// <typeparam name="T"></typeparam>
     /// <returns></returns>
-    public T GetValueAsType<T>()
+    public T? GetValueAsType<T>()
     {
+        if (_value == null) return default(T);
         return (T)_value.GetValue();
     }
 
@@ -108,8 +109,19 @@ public class Port
     /// Get the current ports value type.
     /// </summary>
     /// <returns></returns>
-    public Type GetValueType()
+    public Type? GetValueType()
     {
+        if (_value == null) return null;
         return _value.ValueType;
+    }
+
+    /// <summary>
+    /// Attempt to set the current value.
+    /// </summary>
+    /// <param name="value"></param>
+    public void SetValue(object value)
+    {
+        if (_value == null) _value = CreatePortData(value);
+        else _value.SetValue(value);
     }
 }

@@ -27,6 +27,11 @@ public class GetAngularVelocity : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Angular Velocity";
     public string GetVariableQualifiedName() => "getAngularVelocity";
 }

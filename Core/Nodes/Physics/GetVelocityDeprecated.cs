@@ -27,6 +27,11 @@ public class GetVelocityDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Velocity (Deprecated)";
     public string GetVariableQualifiedName() => "getVelocityDeprecated";
 }

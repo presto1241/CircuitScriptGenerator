@@ -28,6 +28,11 @@ public class RemoteVideoPlayerStopVideo : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Remote Video Player Stop Video";
     public string GetVariableQualifiedName() => "remoteVideoPlayerStopVideo";
 }

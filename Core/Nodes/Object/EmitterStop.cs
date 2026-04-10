@@ -28,6 +28,11 @@ public class EmitterStop : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Emitter Stop";
     public string GetVariableQualifiedName() => "emitterStop";
 }

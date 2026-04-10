@@ -27,6 +27,11 @@ public class PlayerGetSprintSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Sprint Speed";
     public string GetVariableQualifiedName() => "playerGetSprintSpeed";
 }

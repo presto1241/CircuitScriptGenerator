@@ -29,6 +29,11 @@ public class PlayerSetRadioChannel : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Set Radio Channel";
     public string GetVariableQualifiedName() => "playerSetRadioChannel";
 }

@@ -27,6 +27,11 @@ public class PlayerHeadVelocity : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Head Velocity";
     public string GetVariableQualifiedName() => "playerHeadVelocity";
 }

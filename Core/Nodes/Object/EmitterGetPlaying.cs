@@ -27,6 +27,11 @@ public class EmitterGetPlaying : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Emitter Get Playing";
     public string GetVariableQualifiedName() => "emitterGetPlaying";
 }

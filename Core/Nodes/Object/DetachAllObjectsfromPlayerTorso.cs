@@ -28,6 +28,11 @@ public class DetachAllObjectsfromPlayerTorso : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Detach All Objects from Player Torso";
     public string GetVariableQualifiedName() => "detachAllObjectsfromPlayerTorso";
 }

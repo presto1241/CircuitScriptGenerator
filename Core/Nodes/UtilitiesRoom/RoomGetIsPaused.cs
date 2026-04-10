@@ -27,6 +27,11 @@ public class RoomGetIsPaused : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Get Is Paused";
     public string GetVariableQualifiedName() => "roomGetIsPaused";
 }

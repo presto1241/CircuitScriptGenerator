@@ -29,6 +29,11 @@ public class AnimationSetSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Animation Set Speed";
     public string GetVariableQualifiedName() => "animationSetSpeed";
 }

@@ -27,6 +27,11 @@ public class HolotarProjectorGetCurrentTime : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Holotar Projector Get Current Time";
     public string GetVariableQualifiedName() => "holotarProjectorGetCurrentTime";
 }

@@ -29,6 +29,11 @@ public class LightSetSpecularContribution : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Light Set Specular Contribution";
     public string GetVariableQualifiedName() => "lightSetSpecularContribution";
 }

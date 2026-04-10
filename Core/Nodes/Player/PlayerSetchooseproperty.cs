@@ -28,6 +28,11 @@ public class PlayerSetchooseproperty : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Set (choose property)";
     public string GetVariableQualifiedName() => "playerSetchooseproperty";
 }

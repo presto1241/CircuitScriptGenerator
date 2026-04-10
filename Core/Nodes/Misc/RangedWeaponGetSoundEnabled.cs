@@ -27,6 +27,11 @@ public class RangedWeaponGetSoundEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Get Sound Enabled";
     public string GetVariableQualifiedName() => "rangedWeaponGetSoundEnabled";
 }

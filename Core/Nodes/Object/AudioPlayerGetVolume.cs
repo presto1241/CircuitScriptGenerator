@@ -27,6 +27,11 @@ public class AudioPlayerGetVolume : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Audio Player Get Volume";
     public string GetVariableQualifiedName() => "audioPlayerGetVolume";
 }

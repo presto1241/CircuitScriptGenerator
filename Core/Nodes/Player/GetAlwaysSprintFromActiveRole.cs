@@ -27,6 +27,11 @@ public class GetAlwaysSprintFromActiveRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Always Sprint From Active Role";
     public string GetVariableQualifiedName() => "getAlwaysSprintFromActiveRole";
 }

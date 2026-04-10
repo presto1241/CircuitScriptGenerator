@@ -10,6 +10,8 @@ using CircuitScriptGenerator.Core.Api.Parsing;
 using CircuitScriptGenerator.Core.Api.Logging;
 using CircuitScriptGenerator.Core.Api.Nodes;
 using CircuitScriptGenerator.Core.Data;
+using CircuitScriptGenerator.Core.Api.Json;
+using System.Reflection;
 
 namespace CircuitScriptGenerator.Core;
 
@@ -64,6 +66,9 @@ public class CircuitsInstance
 
         // Lazy loading nodes here :)
         if (!NodeStorage.GetNodesLoaded()) NodeStorage.LoadNodes();
+
+        Logger.Log("CircuitInstance", "Assembly Name: " + Assembly.GetExecutingAssembly().GetName().Name);
+        if (!CircuitsJsonLoader.IsLoaded) CircuitsJsonLoader.LoadJson();
 
         try
         {

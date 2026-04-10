@@ -29,6 +29,11 @@ public class GunHandleAddAutoAimRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Add Auto Aim Role";
     public string GetVariableQualifiedName() => "gunHandleAddAutoAimRole";
 }

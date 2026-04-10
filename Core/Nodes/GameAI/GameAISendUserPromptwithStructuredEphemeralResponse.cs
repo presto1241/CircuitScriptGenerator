@@ -32,6 +32,11 @@ public class GameAISendUserPromptwithStructuredEphemeralResponse : INodeBehaviou
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Send User Prompt with Structured Ephemeral Response";
     public string GetVariableQualifiedName() => "gameAISendUserPromptwithStructuredEphemeralResponse";
 }

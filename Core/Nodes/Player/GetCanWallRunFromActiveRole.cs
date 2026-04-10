@@ -27,6 +27,11 @@ public class GetCanWallRunFromActiveRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Can Wall Run From Active Role";
     public string GetVariableQualifiedName() => "getCanWallRunFromActiveRole";
 }

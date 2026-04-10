@@ -27,10 +27,7 @@ public interface INodeBehaviour
     /// <summary>
     /// Generate code for this chip
     /// </summary>
-    /// <param name="inputPorts">The input ports of the chip</param>
-    /// <param name="outputPorts">The output ports of the chip</param>
-    public void Generate(
-        List<Port> inputPorts, 
-        List<Port> outputPorts
-        );
+    /// <param name="graph">The current graph that's being generated</param>
+    /// <param name="nodeReference">The current chip to generate code for</param>
+    public void Generate(Graph graph, Node nodeReference);
 }

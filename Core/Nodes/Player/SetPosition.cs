@@ -30,6 +30,11 @@ public class SetPosition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Position";
     public string GetVariableQualifiedName() => "setPosition";
 }

@@ -27,6 +27,11 @@ public class RoomKeyConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Key Constant";
     public string GetVariableQualifiedName() => "roomKeyConstant";
 }

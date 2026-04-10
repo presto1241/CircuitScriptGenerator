@@ -33,6 +33,11 @@ public class AttachObjecttoPlayerTorso : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Attach Object to Player Torso";
     public string GetVariableQualifiedName() => "attachObjecttoPlayerTorso";
 }

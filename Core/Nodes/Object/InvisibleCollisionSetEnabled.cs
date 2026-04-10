@@ -29,6 +29,11 @@ public class InvisibleCollisionSetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Invisible Collision Set Enabled";
     public string GetVariableQualifiedName() => "invisibleCollisionSetEnabled";
 }

@@ -4,7 +4,8 @@
  * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
- * Description: Sets the maximum distance that audio from the target Audio Player can be heard from.
+ * Description: Sets the maximum distance that audio from the target Audio Player
+ can be heard from.
  * Types: 
  * 
  * INPUTS: 
@@ -25,6 +26,11 @@ namespace CircuitScriptGenerator.Core.Nodes.Object;
 public class AudioPlayerSetMaxRolloffDistance : INodeBehaviour
 {
     public void Generate(List<Port> inputPorts, List<Port> outputPorts)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Generate(Graph graph, Node nodeReference)
     {
         throw new NotImplementedException();
     }

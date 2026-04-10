@@ -27,6 +27,11 @@ public class Max : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Max";
     public string GetVariableQualifiedName() => "max";
 }

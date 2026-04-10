@@ -29,6 +29,11 @@ public class ArtCanvasClearwithColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Art Canvas Clear with Color";
     public string GetVariableQualifiedName() => "artCanvasClearwithColor";
 }

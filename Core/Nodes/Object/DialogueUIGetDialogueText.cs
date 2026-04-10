@@ -28,6 +28,11 @@ public class DialogueUIGetDialogueText : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dialogue UI Get Dialogue Text";
     public string GetVariableQualifiedName() => "dialogueUIGetDialogueText";
 }

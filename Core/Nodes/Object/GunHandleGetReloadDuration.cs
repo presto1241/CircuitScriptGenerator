@@ -27,6 +27,11 @@ public class GunHandleGetReloadDuration : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Get Reload Duration";
     public string GetVariableQualifiedName() => "gunHandleGetReloadDuration";
 }

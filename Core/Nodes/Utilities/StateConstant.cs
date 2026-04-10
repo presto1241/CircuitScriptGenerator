@@ -27,6 +27,11 @@ public class StateConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "State Constant";
     public string GetVariableQualifiedName() => "stateConstant";
 }

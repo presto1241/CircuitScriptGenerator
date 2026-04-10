@@ -27,6 +27,11 @@ public class PlayerGetAllwithTag : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get All with Tag";
     public string GetVariableQualifiedName() => "playerGetAllwithTag";
 }

@@ -29,6 +29,11 @@ public class RangedWeaponSetRecRoomObjectDamage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Set Rec Room Object Damage";
     public string GetVariableQualifiedName() => "rangedWeaponSetRecRoomObjectDamage";
 }

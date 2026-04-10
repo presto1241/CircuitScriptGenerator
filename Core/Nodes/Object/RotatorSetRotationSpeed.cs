@@ -29,6 +29,11 @@ public class RotatorSetRotationSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rotator Set Rotation Speed";
     public string GetVariableQualifiedName() => "rotatorSetRotationSpeed";
 }

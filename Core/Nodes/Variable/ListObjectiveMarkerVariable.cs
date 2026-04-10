@@ -29,6 +29,11 @@ public class ListObjectiveMarkerVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<Objective Marker> Variable";
     public string GetVariableQualifiedName() => "listObjectiveMarkerVariable";
 }

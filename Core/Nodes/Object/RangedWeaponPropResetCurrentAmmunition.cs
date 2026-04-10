@@ -28,6 +28,11 @@ public class RangedWeaponPropResetCurrentAmmunition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Reset Current Ammunition";
     public string GetVariableQualifiedName() => "rangedWeaponPropResetCurrentAmmunition";
 }

@@ -30,6 +30,11 @@ public class DictionaryUpdateProperty : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dictionary Update Property";
     public string GetVariableQualifiedName() => "dictionaryUpdateProperty";
 }

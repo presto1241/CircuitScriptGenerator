@@ -28,6 +28,11 @@ public class ConsumableDeactivate : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Consumable Deactivate";
     public string GetVariableQualifiedName() => "consumableDeactivate";
 }

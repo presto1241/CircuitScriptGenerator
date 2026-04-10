@@ -29,6 +29,11 @@ public class RangedWeaponPropGetRateOfFire : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Get Rate Of Fire";
     public string GetVariableQualifiedName() => "rangedWeaponPropGetRateOfFire";
 }

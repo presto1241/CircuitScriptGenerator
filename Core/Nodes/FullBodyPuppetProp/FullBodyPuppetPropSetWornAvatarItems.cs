@@ -29,6 +29,11 @@ public class FullBodyPuppetPropSetWornAvatarItems : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Full Body Puppet Prop Set Worn Avatar Items";
     public string GetVariableQualifiedName() => "fullBodyPuppetPropSetWornAvatarItems";
 }

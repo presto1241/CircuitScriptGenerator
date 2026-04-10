@@ -27,6 +27,11 @@ public class InstanceGetLifetime : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Instance Get Lifetime";
     public string GetVariableQualifiedName() => "instanceGetLifetime";
 }

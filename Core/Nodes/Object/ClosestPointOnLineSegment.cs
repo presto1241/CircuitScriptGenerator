@@ -30,6 +30,11 @@ public class ClosestPointOnLineSegment : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Closest Point On Line Segment";
     public string GetVariableQualifiedName() => "closestPointOnLineSegment";
 }

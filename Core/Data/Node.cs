@@ -14,16 +14,20 @@ public class Node
     public int NodeId { get; }
     public string AssetId { get; }
 
-    public IReadOnlyList<Port> InputPorts => _inputPorts;
-    public List<Port> _inputPorts = new(); 
+    Port[] InputPorts { get; }
+    Port[] OutputPorts { get; }
 
-    public IReadOnlyList<Port> OutputPorts => _outputPorts;
-    public List<Port> _outputPorts = new();
-
-    public Node(string name, int nodeId, string assetId)
+    public Node(
+        string name, 
+        int nodeId, 
+        string assetId,
+        Port[] inputPorts,
+        Port[] outputPorts)
     {
         Name = name;
         NodeId = nodeId;
         AssetId = assetId;
+        InputPorts = inputPorts;
+        OutputPorts = outputPorts;
     }
 }

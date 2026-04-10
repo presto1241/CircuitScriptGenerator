@@ -27,6 +27,11 @@ public class PlayerLeftHandPosition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Left Hand Position";
     public string GetVariableQualifiedName() => "playerLeftHandPosition";
 }

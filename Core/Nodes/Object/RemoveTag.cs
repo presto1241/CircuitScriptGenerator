@@ -29,6 +29,11 @@ public class RemoveTag : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Remove Tag";
     public string GetVariableQualifiedName() => "removeTag";
 }

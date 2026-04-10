@@ -29,6 +29,11 @@ public class GroundVehicleSetEngineTorqueMultiplier : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ground Vehicle Set Engine Torque Multiplier";
     public string GetVariableQualifiedName() => "groundVehicleSetEngineTorqueMultiplier";
 }

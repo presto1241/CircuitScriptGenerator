@@ -31,6 +31,11 @@ public class RangedWeaponSetHeadDamage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Set Head Damage";
     public string GetVariableQualifiedName() => "rangedWeaponSetHeadDamage";
 }

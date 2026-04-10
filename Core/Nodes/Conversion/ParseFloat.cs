@@ -28,6 +28,11 @@ public class ParseFloat : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Parse Float";
     public string GetVariableQualifiedName() => "parseFloat";
 }

@@ -28,6 +28,11 @@ public class Vector3Angle : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Angle";
     public string GetVariableQualifiedName() => "vector3Angle";
 }

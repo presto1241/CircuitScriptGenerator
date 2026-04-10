@@ -29,6 +29,11 @@ public class GameAISetUse3DAudio : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Set Use 3D Audio";
     public string GetVariableQualifiedName() => "gameAISetUse3DAudio";
 }

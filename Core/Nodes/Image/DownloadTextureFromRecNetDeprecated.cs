@@ -30,6 +30,11 @@ public class DownloadTextureFromRecNetDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Download Texture From RecNet (Deprecated)";
     public string GetVariableQualifiedName() => "downloadTextureFromRecNetDeprecated";
 }

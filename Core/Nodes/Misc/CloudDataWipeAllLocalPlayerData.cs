@@ -27,6 +27,11 @@ public class CloudDataWipeAllLocalPlayerData : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Cloud Data Wipe All Local Player Data";
     public string GetVariableQualifiedName() => "cloudDataWipeAllLocalPlayerData";
 }

@@ -29,6 +29,11 @@ public class SetHUDElementColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set HUD Element Color";
     public string GetVariableQualifiedName() => "setHUDElementColor";
 }

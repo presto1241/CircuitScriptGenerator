@@ -29,6 +29,11 @@ public class GameAISetAreVoiceAndSubtitlesSynced : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Set Are Voice And Subtitles Synced";
     public string GetVariableQualifiedName() => "gameAISetAreVoiceAndSubtitlesSynced";
 }

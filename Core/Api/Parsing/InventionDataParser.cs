@@ -53,6 +53,8 @@ public class InventionDataParser : IDataParser
             GuidData nodeType = spawnableTemplateData.CircuitV2Data.Root.NodeDatas[i].NodeType;
             Logger.Log("InventionDataParser", $"Node {i} is type: " +  nodeType);
         }
+
+        data.Close();
         return true;
     }
 }

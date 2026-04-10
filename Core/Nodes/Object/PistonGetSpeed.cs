@@ -27,6 +27,11 @@ public class PistonGetSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Piston Get Speed";
     public string GetVariableQualifiedName() => "pistonGetSpeed";
 }

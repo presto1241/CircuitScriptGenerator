@@ -29,6 +29,11 @@ public class AudioPlayerPlay : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Audio Player Play";
     public string GetVariableQualifiedName() => "audioPlayerPlay";
 }

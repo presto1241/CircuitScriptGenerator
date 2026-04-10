@@ -27,6 +27,11 @@ public class Equals : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Equals";
     public string GetVariableQualifiedName() => "equals";
 }

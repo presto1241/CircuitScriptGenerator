@@ -28,6 +28,11 @@ public class Sequence : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Sequence";
     public string GetVariableQualifiedName() => "sequence";
 }

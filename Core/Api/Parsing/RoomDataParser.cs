@@ -5,8 +5,12 @@
  * 
  * Description: 
  */
+using System.Diagnostics;
 using System.IO.Compression;
+using CircuitScriptGenerator.Core.Api.Json;
+using CircuitScriptGenerator.Core.Api.Json.Data;
 using CircuitScriptGenerator.Core.Api.Logging;
+using CircuitScriptGenerator.Core.Api.Parsing.Data;
 using CircuitScriptGenerator.Core.Data;
 using RecRoom.Protobuf;
 
@@ -51,16 +55,41 @@ public class RoomDataParser : IDataParser
         if (zipArchiveEntry == null) return null;
         Stream data = zipArchiveEntry.Open();
         PersistedRoomData roomData = PersistedRoomData.Parser.ParseFrom(data);
+        Dictionary<string, CircuitsCsv> csvData = Utils.LoadCsv(
+            folderName.Replace("persisted_room_data.binpb", ""), archive);
 
         Logger.Log("RoomDataParser", $"Subroom {roomData.SubRoomId} has {roomData.CircuitV2Data.Root.NodeDatas.Count} nodes");
-        
+
         /*
-        for (int i = 0; i < roomData.CircuitV2Data.Root.NodeDatas.Count; i++)
-        {
-            var node *= roomData.CircuitV2Data.Root.NodeDatas[i];
-            Logger.Log("RoomDataParser", $"Subroom {roomData.SubRoomId} : Loading node id {node.NodeId.Value}");
-        }
+        Logger.Log("RoomDataParser", 
+            $"Subroom {roomData.SubRoomId} csv nodes:\n{string.Join("", csvData.Values.Select(v => $"    - {v.Base64Guid} | {v.Guid} | {v.Type}\n"))}");
         */
+        List<string> allFoundTypes = new();
+        
+        foreach (var val in CircuitsJsonLoader.Nodes.Values)
+        {
+            foreach (var desc in val.NodeDescs[0].Inputs)
+            {
+                foreach (var type in Utils.GetNodeTypes(desc.ReadonlyType))
+                {
+                    if (allFoundTypes.Contains(type)) continue;
+                    allFoundTypes.Add(type);
+                }
+            }
+            
+            Logger.Log("RoomDataParser", "Chip: " + val.ChipNameSource);
+        }
+
+        try
+        {
+            Logger.Log("RoomDataParser", "Found this many unique types:\n" + string.Join("", allFoundTypes.Select(t => "    - " + t + "\n")));
+        }
+        catch (Exception e)
+        {
+            Logger.Log("RoomDataParser", $"{e.Message}");
+        }
+
+        data.Close();
         
         return graphs;
     }

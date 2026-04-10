@@ -31,6 +31,11 @@ public class RangedWeaponSetProjectileGravityEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Set Projectile Gravity Enabled";
     public string GetVariableQualifiedName() => "rangedWeaponSetProjectileGravityEnabled";
 }

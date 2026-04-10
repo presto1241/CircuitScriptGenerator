@@ -28,6 +28,11 @@ public class StringSplitAtIndex : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "String Split At Index";
     public string GetVariableQualifiedName() => "stringSplitAtIndex";
 }

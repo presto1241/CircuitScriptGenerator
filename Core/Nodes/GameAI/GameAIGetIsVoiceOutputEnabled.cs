@@ -27,6 +27,11 @@ public class GameAIGetIsVoiceOutputEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Is Voice Output Enabled";
     public string GetVariableQualifiedName() => "gameAIGetIsVoiceOutputEnabled";
 }

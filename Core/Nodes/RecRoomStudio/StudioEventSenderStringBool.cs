@@ -31,6 +31,11 @@ public class StudioEventSenderStringBool : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Studio Event Sender - String, Bool";
     public string GetVariableQualifiedName() => "studioEventSenderStringBool";
 }

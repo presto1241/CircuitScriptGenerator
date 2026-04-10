@@ -37,6 +37,11 @@ public class ChatAIRequestAudioResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Chat AI Request Audio Response";
     public string GetVariableQualifiedName() => "chatAIRequestAudioResponse";
 }

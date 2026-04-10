@@ -29,6 +29,11 @@ public class EndLocalAudioRecordingNode : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "End Local Audio Recording Node";
     public string GetVariableQualifiedName() => "endLocalAudioRecordingNode";
 }

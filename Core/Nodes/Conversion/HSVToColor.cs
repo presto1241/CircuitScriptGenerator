@@ -29,6 +29,11 @@ public class HSVToColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "HSV To Color";
     public string GetVariableQualifiedName() => "hSVToColor";
 }

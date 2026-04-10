@@ -27,6 +27,11 @@ public class ObjectiveMarkerGetLabel : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Get Label";
     public string GetVariableQualifiedName() => "objectiveMarkerGetLabel";
 }

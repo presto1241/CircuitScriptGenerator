@@ -27,6 +27,11 @@ public class GameAIGetWackiness : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Wackiness";
     public string GetVariableQualifiedName() => "gameAIGetWackiness";
 }

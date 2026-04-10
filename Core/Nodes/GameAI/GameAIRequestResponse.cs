@@ -36,6 +36,11 @@ public class GameAIRequestResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Request Response";
     public string GetVariableQualifiedName() => "gameAIRequestResponse";
 }

@@ -30,6 +30,11 @@ public class UnequipFromPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Unequip From Player";
     public string GetVariableQualifiedName() => "unequipFromPlayer";
 }

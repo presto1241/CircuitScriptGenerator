@@ -29,6 +29,11 @@ public class CreateAnalyticsEventPayload : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Create Analytics Event Payload";
     public string GetVariableQualifiedName() => "createAnalyticsEventPayload";
 }

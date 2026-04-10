@@ -29,6 +29,11 @@ public class ListRecRoomObjectVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<Rec Room Object> Variable";
     public string GetVariableQualifiedName() => "listRecRoomObjectVariable";
 }

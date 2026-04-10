@@ -29,6 +29,11 @@ public class MakerAIExecute : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "MakerAI Execute";
     public string GetVariableQualifiedName() => "makerAIExecute";
 }

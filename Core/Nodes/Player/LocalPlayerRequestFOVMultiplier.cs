@@ -31,6 +31,11 @@ public class LocalPlayerRequestFOVMultiplier : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Request FOV Multiplier";
     public string GetVariableQualifiedName() => "localPlayerRequestFOVMultiplier";
 }

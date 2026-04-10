@@ -29,6 +29,11 @@ public class floatVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "float Variable";
     public string GetVariableQualifiedName() => "floatVariable";
 }

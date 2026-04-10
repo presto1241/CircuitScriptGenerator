@@ -30,6 +30,11 @@ public class RespawnPointRespawnPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Respawn Point Respawn Player";
     public string GetVariableQualifiedName() => "respawnPointRespawnPlayer";
 }

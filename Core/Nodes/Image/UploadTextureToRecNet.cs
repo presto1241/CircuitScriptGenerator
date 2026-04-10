@@ -30,6 +30,11 @@ public class UploadTextureToRecNet : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Upload Texture To RecNet";
     public string GetVariableQualifiedName() => "uploadTextureToRecNet";
 }

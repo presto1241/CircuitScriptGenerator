@@ -27,6 +27,11 @@ public class CostumeGetWearer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Costume Get Wearer";
     public string GetVariableQualifiedName() => "costumeGetWearer";
 }

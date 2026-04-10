@@ -29,6 +29,11 @@ public class ArtCanvasRenderToTexture : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Art Canvas Render To Texture";
     public string GetVariableQualifiedName() => "artCanvasRenderToTexture";
 }

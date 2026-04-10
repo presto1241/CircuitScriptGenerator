@@ -29,6 +29,11 @@ public class PlayerGetForceVirtualHeightMode : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Force Virtual Height Mode";
     public string GetVariableQualifiedName() => "playerGetForceVirtualHeightMode";
 }

@@ -28,6 +28,11 @@ public class IfLocalPlayerIsRoomAuthority : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "If Local Player Is Room Authority";
     public string GetVariableQualifiedName() => "ifLocalPlayerIsRoomAuthority";
 }

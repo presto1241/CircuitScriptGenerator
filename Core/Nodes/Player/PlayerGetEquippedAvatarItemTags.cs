@@ -28,6 +28,11 @@ public class PlayerGetEquippedAvatarItemTags : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Equipped Avatar Item Tags";
     public string GetVariableQualifiedName() => "playerGetEquippedAvatarItemTags";
 }

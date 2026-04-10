@@ -30,6 +30,11 @@ public class AddAnalyticsEventProperty : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Add Analytics Event Property";
     public string GetVariableQualifiedName() => "addAnalyticsEventProperty";
 }

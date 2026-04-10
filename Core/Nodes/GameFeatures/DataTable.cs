@@ -27,6 +27,11 @@ public class DataTable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Data Table";
     public string GetVariableQualifiedName() => "dataTable";
 }

@@ -28,6 +28,11 @@ public class StringIndexOf : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "String Index Of";
     public string GetVariableQualifiedName() => "stringIndexOf";
 }

@@ -29,6 +29,11 @@ public class ListRemoveAt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Remove At";
     public string GetVariableQualifiedName() => "listRemoveAt";
 }

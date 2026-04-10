@@ -31,6 +31,11 @@ public class RangedWeaponPropSetRecoilIntensityMultiplier : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Set Recoil Intensity Multiplier";
     public string GetVariableQualifiedName() => "rangedWeaponPropSetRecoilIntensityMultiplier";
 }

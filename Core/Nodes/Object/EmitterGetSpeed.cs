@@ -27,6 +27,11 @@ public class EmitterGetSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Emitter Get Speed";
     public string GetVariableQualifiedName() => "emitterGetSpeed";
 }

@@ -28,6 +28,11 @@ public class RangedWeaponPropGetDefaultTotalAmmunition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Get Default Total Ammunition";
     public string GetVariableQualifiedName() => "rangedWeaponPropGetDefaultTotalAmmunition";
 }

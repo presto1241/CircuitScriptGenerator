@@ -27,6 +27,11 @@ public class RoomOfferConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Offer Constant";
     public string GetVariableQualifiedName() => "roomOfferConstant";
 }

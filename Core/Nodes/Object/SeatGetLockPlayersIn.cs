@@ -27,6 +27,11 @@ public class SeatGetLockPlayersIn : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Seat Get Lock Players In";
     public string GetVariableQualifiedName() => "seatGetLockPlayersIn";
 }

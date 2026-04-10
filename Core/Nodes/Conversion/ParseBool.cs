@@ -28,6 +28,11 @@ public class ParseBool : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Parse Bool";
     public string GetVariableQualifiedName() => "parseBool";
 }

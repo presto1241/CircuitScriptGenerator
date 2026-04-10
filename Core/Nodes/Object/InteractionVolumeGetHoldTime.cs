@@ -27,6 +27,11 @@ public class InteractionVolumeGetHoldTime : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Interaction Volume Get Hold Time";
     public string GetVariableQualifiedName() => "interactionVolumeGetHoldTime";
 }

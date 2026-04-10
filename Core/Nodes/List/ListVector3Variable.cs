@@ -29,6 +29,11 @@ public class ListVector3Variable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<Vector3> Variable";
     public string GetVariableQualifiedName() => "listVector3Variable";
 }

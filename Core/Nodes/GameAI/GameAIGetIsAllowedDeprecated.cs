@@ -27,6 +27,11 @@ public class GameAIGetIsAllowedDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Is Allowed (Deprecated)";
     public string GetVariableQualifiedName() => "gameAIGetIsAllowedDeprecated";
 }

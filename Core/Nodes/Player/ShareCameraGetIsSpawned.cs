@@ -27,6 +27,11 @@ public class ShareCameraGetIsSpawned : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Share Camera Get Is Spawned";
     public string GetVariableQualifiedName() => "shareCameraGetIsSpawned";
 }

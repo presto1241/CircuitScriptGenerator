@@ -29,6 +29,11 @@ public class InverseLerpUnclamped : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Inverse Lerp Unclamped";
     public string GetVariableQualifiedName() => "inverseLerpUnclamped";
 }

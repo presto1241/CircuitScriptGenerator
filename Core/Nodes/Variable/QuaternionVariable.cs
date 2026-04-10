@@ -29,6 +29,11 @@ public class QuaternionVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Quaternion Variable";
     public string GetVariableQualifiedName() => "quaternionVariable";
 }

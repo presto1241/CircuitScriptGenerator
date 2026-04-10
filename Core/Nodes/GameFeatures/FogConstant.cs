@@ -27,6 +27,11 @@ public class FogConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Fog Constant";
     public string GetVariableQualifiedName() => "fogConstant";
 }

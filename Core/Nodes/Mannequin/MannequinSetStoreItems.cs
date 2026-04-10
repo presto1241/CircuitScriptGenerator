@@ -29,6 +29,11 @@ public class MannequinSetStoreItems : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mannequin Set Store Items";
     public string GetVariableQualifiedName() => "mannequinSetStoreItems";
 }

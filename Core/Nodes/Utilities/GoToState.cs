@@ -28,6 +28,11 @@ public class GoToState : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Go To State";
     public string GetVariableQualifiedName() => "goToState";
 }

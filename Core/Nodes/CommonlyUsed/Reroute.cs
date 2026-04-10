@@ -27,6 +27,11 @@ public class Reroute : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Reroute";
     public string GetVariableQualifiedName() => "reroute";
 }

@@ -27,6 +27,11 @@ public class ReplicatorGetActiveObjectsCount : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Replicator Get Active Objects Count";
     public string GetVariableQualifiedName() => "replicatorGetActiveObjectsCount";
 }

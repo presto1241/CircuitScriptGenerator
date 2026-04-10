@@ -30,6 +30,11 @@ public class AIGetLineofSightParameters : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Get Line of Sight Parameters";
     public string GetVariableQualifiedName() => "aIGetLineofSightParameters";
 }

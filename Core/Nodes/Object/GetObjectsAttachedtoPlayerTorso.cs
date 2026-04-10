@@ -27,6 +27,11 @@ public class GetObjectsAttachedtoPlayerTorso : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Objects Attached to Player Torso";
     public string GetVariableQualifiedName() => "getObjectsAttachedtoPlayerTorso";
 }

@@ -29,6 +29,11 @@ public class TrailSetOpacity : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trail Set Opacity";
     public string GetVariableQualifiedName() => "trailSetOpacity";
 }

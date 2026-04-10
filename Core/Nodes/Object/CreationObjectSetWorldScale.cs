@@ -30,6 +30,11 @@ public class CreationObjectSetWorldScale : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Creation Object Set World Scale";
     public string GetVariableQualifiedName() => "creationObjectSetWorldScale";
 }

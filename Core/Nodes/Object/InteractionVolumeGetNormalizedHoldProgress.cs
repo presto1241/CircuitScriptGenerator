@@ -27,6 +27,11 @@ public class InteractionVolumeGetNormalizedHoldProgress : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Interaction Volume Get Normalized Hold Progress";
     public string GetVariableQualifiedName() => "interactionVolumeGetNormalizedHoldProgress";
 }

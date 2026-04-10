@@ -27,6 +27,11 @@ public class CreationObjectGetWorldScale : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Creation Object Get World Scale";
     public string GetVariableQualifiedName() => "creationObjectGetWorldScale";
 }

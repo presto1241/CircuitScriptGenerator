@@ -28,6 +28,11 @@ public class Logarithm : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Logarithm";
     public string GetVariableQualifiedName() => "logarithm";
 }

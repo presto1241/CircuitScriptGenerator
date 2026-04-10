@@ -29,6 +29,11 @@ public class HandleSetPlayerFilterTags : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Handle Set Player Filter Tags";
     public string GetVariableQualifiedName() => "handleSetPlayerFilterTags";
 }

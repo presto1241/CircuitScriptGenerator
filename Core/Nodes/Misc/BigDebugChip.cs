@@ -27,6 +27,11 @@ public class BigDebugChip : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Big Debug Chip";
     public string GetVariableQualifiedName() => "bigDebugChip";
 }

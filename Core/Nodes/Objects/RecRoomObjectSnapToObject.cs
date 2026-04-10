@@ -30,6 +30,11 @@ public class RecRoomObjectSnapToObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Snap To Object";
     public string GetVariableQualifiedName() => "recRoomObjectSnapToObject";
 }

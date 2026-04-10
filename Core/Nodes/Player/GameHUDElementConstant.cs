@@ -27,6 +27,11 @@ public class GameHUDElementConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game HUD Element Constant";
     public string GetVariableQualifiedName() => "gameHUDElementConstant";
 }

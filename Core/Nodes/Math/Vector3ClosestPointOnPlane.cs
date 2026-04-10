@@ -29,6 +29,11 @@ public class Vector3ClosestPointOnPlane : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Closest Point On Plane";
     public string GetVariableQualifiedName() => "vector3ClosestPointOnPlane";
 }

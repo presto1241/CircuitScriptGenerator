@@ -27,6 +27,11 @@ public class TriggerHandleGetPrimaryActionHeld : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trigger Handle Get Primary Action Held";
     public string GetVariableQualifiedName() => "triggerHandleGetPrimaryActionHeld";
 }

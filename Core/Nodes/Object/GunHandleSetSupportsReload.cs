@@ -29,6 +29,11 @@ public class GunHandleSetSupportsReload : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Set Supports Reload";
     public string GetVariableQualifiedName() => "gunHandleSetSupportsReload";
 }

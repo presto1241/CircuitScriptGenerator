@@ -27,6 +27,11 @@ public class CollisionDetectionVolumeGetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Collision Detection Volume Get Enabled";
     public string GetVariableQualifiedName() => "collisionDetectionVolumeGetEnabled";
 }

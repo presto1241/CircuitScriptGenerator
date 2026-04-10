@@ -30,6 +30,11 @@ public class DiscoverySectionGetDestinationRoomList : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Discovery Section Get Destination Room List";
     public string GetVariableQualifiedName() => "discoverySectionGetDestinationRoomList";
 }

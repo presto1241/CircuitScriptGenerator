@@ -27,6 +27,11 @@ public class GameAIGetIsSubtitleOutputEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Is Subtitle Output Enabled";
     public string GetVariableQualifiedName() => "gameAIGetIsSubtitleOutputEnabled";
 }

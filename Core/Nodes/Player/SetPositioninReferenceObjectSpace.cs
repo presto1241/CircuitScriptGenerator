@@ -31,6 +31,11 @@ public class SetPositioninReferenceObjectSpace : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Position in Reference Object Space";
     public string GetVariableQualifiedName() => "setPositioninReferenceObjectSpace";
 }

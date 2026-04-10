@@ -27,6 +27,11 @@ public class InttoFloat : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Int to Float";
     public string GetVariableQualifiedName() => "inttoFloat";
 }

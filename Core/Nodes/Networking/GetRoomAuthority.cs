@@ -27,6 +27,11 @@ public class GetRoomAuthority : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Room Authority";
     public string GetVariableQualifiedName() => "getRoomAuthority";
 }

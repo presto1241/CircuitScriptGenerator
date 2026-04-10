@@ -27,6 +27,11 @@ public class CallFunctionunbound : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Call Function (unbound)";
     public string GetVariableQualifiedName() => "callFunctionunbound";
 }

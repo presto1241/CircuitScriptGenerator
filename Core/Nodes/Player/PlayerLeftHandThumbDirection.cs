@@ -27,6 +27,11 @@ public class PlayerLeftHandThumbDirection : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Left Hand Thumb Direction";
     public string GetVariableQualifiedName() => "playerLeftHandThumbDirection";
 }

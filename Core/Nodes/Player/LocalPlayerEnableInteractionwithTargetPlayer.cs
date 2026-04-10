@@ -30,6 +30,11 @@ public class LocalPlayerEnableInteractionwithTargetPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Enable Interaction with Target Player";
     public string GetVariableQualifiedName() => "localPlayerEnableInteractionwithTargetPlayer";
 }

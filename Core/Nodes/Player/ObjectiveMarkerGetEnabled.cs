@@ -27,6 +27,11 @@ public class ObjectiveMarkerGetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Get Enabled";
     public string GetVariableQualifiedName() => "objectiveMarkerGetEnabled";
 }

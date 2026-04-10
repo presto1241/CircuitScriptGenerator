@@ -28,6 +28,11 @@ public class PlayerDetachAllRecRoomObjects : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Detach All Rec Room Objects";
     public string GetVariableQualifiedName() => "playerDetachAllRecRoomObjects";
 }

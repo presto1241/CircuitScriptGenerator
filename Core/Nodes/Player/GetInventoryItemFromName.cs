@@ -27,6 +27,11 @@ public class GetInventoryItemFromName : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Inventory Item From Name";
     public string GetVariableQualifiedName() => "getInventoryItemFromName";
 }

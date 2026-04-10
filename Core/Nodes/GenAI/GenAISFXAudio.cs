@@ -27,6 +27,11 @@ public class GenAISFXAudio : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gen AI SFX Audio";
     public string GetVariableQualifiedName() => "genAISFXAudio";
 }

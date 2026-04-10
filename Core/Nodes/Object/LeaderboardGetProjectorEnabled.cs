@@ -27,6 +27,11 @@ public class LeaderboardGetProjectorEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Leaderboard Get Projector Enabled";
     public string GetVariableQualifiedName() => "leaderboardGetProjectorEnabled";
 }

@@ -35,6 +35,11 @@ public class GenAISendEditImagePrompt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gen AI Send Edit Image Prompt";
     public string GetVariableQualifiedName() => "genAISendEditImagePrompt";
 }

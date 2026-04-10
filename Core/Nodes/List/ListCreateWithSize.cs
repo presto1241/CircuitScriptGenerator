@@ -28,6 +28,11 @@ public class ListCreateWithSize : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Create With Size";
     public string GetVariableQualifiedName() => "listCreateWithSize";
 }

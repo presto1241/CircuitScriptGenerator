@@ -27,6 +27,11 @@ public class DialogueUIGetBillboardingPivotOffset : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dialogue UI Get Billboarding Pivot Offset";
     public string GetVariableQualifiedName() => "dialogueUIGetBillboardingPivotOffset";
 }

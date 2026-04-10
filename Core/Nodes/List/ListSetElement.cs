@@ -30,6 +30,11 @@ public class ListSetElement : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Set Element";
     public string GetVariableQualifiedName() => "listSetElement";
 }

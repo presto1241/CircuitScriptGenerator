@@ -34,6 +34,11 @@ public class PathfinderStartRotatingtoDirection : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Pathfinder Start Rotating to Direction";
     public string GetVariableQualifiedName() => "pathfinderStartRotatingtoDirection";
 }

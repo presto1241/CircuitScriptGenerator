@@ -27,6 +27,11 @@ public class RangedWeaponPropGetIsOnCooldown : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Get Is On Cooldown";
     public string GetVariableQualifiedName() => "rangedWeaponPropGetIsOnCooldown";
 }

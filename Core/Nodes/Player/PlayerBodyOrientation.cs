@@ -27,6 +27,11 @@ public class PlayerBodyOrientation : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Body Orientation";
     public string GetVariableQualifiedName() => "playerBodyOrientation";
 }

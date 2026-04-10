@@ -78,6 +78,11 @@ public class FormatValue : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Format Value";
     public string GetVariableQualifiedName() => "formatValue";
 }

@@ -27,6 +27,11 @@ public class CollisionDataGetDistance : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Collision Data Get Distance";
     public string GetVariableQualifiedName() => "collisionDataGetDistance";
 }

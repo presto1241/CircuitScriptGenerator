@@ -29,6 +29,11 @@ public class InteractionVolumeSetInteractionPrompt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Interaction Volume Set Interaction Prompt";
     public string GetVariableQualifiedName() => "interactionVolumeSetInteractionPrompt";
 }

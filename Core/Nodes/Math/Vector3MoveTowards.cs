@@ -29,6 +29,11 @@ public class Vector3MoveTowards : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Move Towards";
     public string GetVariableQualifiedName() => "vector3MoveTowards";
 }

@@ -27,6 +27,11 @@ public class ListGetCount : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Get Count";
     public string GetVariableQualifiedName() => "listGetCount";
 }

@@ -27,6 +27,11 @@ public class GraphGetIsActive : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Graph Get Is Active";
     public string GetVariableQualifiedName() => "graphGetIsActive";
 }

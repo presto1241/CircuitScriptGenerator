@@ -37,6 +37,11 @@ public class TextToSpeech : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Text To Speech";
     public string GetVariableQualifiedName() => "textToSpeech";
 }

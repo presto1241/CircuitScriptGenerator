@@ -30,6 +30,11 @@ public class Vector3ClampMagnitude : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Clamp Magnitude";
     public string GetVariableQualifiedName() => "vector3ClampMagnitude";
 }

@@ -27,6 +27,11 @@ public class LocomotionRequestSprintStart : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Locomotion Request Sprint Start";
     public string GetVariableQualifiedName() => "locomotionRequestSprintStart";
 }

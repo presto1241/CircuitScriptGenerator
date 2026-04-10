@@ -30,6 +30,11 @@ public class SetRotation : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Rotation";
     public string GetVariableQualifiedName() => "setRotation";
 }

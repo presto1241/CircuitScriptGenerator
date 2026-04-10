@@ -27,6 +27,11 @@ public class GetPlayerWorldUISecondaryBarEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Player World UI Secondary Bar Enabled";
     public string GetVariableQualifiedName() => "getPlayerWorldUISecondaryBarEnabled";
 }

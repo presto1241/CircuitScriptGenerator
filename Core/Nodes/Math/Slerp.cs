@@ -29,6 +29,11 @@ public class Slerp : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Slerp";
     public string GetVariableQualifiedName() => "slerp";
 }

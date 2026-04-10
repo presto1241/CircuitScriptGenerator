@@ -27,6 +27,11 @@ public class OpenStore : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Open Store";
     public string GetVariableQualifiedName() => "openStore";
 }

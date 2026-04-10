@@ -27,6 +27,11 @@ public class AllowDressUp : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Allow Dress-Up";
     public string GetVariableQualifiedName() => "allowDressUp";
 }

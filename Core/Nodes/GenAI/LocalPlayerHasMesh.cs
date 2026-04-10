@@ -27,6 +27,11 @@ public class LocalPlayerHasMesh : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Has Mesh";
     public string GetVariableQualifiedName() => "localPlayerHasMesh";
 }

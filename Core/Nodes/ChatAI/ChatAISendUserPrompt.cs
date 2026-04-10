@@ -34,6 +34,11 @@ public class ChatAISendUserPrompt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Chat AI Send User Prompt";
     public string GetVariableQualifiedName() => "chatAISendUserPrompt";
 }

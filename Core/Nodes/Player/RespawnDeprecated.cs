@@ -34,6 +34,11 @@ public class RespawnDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Respawn (Deprecated)";
     public string GetVariableQualifiedName() => "respawnDeprecated";
 }

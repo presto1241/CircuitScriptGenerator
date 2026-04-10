@@ -27,6 +27,11 @@ public class BackgroundObjectsConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Background Objects Constant";
     public string GetVariableQualifiedName() => "backgroundObjectsConstant";
 }

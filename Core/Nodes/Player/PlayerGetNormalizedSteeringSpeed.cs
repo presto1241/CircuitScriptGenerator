@@ -27,6 +27,11 @@ public class PlayerGetNormalizedSteeringSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Normalized Steering Speed";
     public string GetVariableQualifiedName() => "playerGetNormalizedSteeringSpeed";
 }

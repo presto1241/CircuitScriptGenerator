@@ -27,6 +27,11 @@ public class DialogueUIGetIsEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dialogue UI Get Is Enabled";
     public string GetVariableQualifiedName() => "dialogueUIGetIsEnabled";
 }

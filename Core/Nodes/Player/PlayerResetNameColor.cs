@@ -28,6 +28,11 @@ public class PlayerResetNameColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Reset Name Color";
     public string GetVariableQualifiedName() => "playerResetNameColor";
 }

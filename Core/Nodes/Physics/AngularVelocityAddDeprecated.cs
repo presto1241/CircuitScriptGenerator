@@ -31,6 +31,11 @@ public class AngularVelocityAddDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Angular Velocity Add (Deprecated)";
     public string GetVariableQualifiedName() => "angularVelocityAddDeprecated";
 }

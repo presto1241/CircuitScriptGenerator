@@ -28,6 +28,11 @@ public class ListRemoveLast : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Remove Last";
     public string GetVariableQualifiedName() => "listRemoveLast";
 }

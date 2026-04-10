@@ -28,6 +28,11 @@ public class GetPositioninReferenceObjectSpace : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Position in Reference Object Space";
     public string GetVariableQualifiedName() => "getPositioninReferenceObjectSpace";
 }

@@ -29,6 +29,11 @@ public class IfValue : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "If Value";
     public string GetVariableQualifiedName() => "ifValue";
 }

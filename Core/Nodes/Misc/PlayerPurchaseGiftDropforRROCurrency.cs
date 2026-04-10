@@ -41,6 +41,11 @@ public class PlayerPurchaseGiftDropforRROCurrency : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Purchase GiftDrop for RRO Currency";
     public string GetVariableQualifiedName() => "playerPurchaseGiftDropforRROCurrency";
 }

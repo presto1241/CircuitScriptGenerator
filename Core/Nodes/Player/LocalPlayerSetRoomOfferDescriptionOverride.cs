@@ -29,6 +29,11 @@ public class LocalPlayerSetRoomOfferDescriptionOverride : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Set Room Offer Description Override";
     public string GetVariableQualifiedName() => "localPlayerSetRoomOfferDescriptionOverride";
 }

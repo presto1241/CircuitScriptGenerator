@@ -27,6 +27,11 @@ public class TriggerVolumeGetObjectFilterTags : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trigger Volume Get Object Filter Tags";
     public string GetVariableQualifiedName() => "triggerVolumeGetObjectFilterTags";
 }

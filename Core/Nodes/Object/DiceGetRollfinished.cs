@@ -27,6 +27,11 @@ public class DiceGetRollfinished : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dice Get Roll finished";
     public string GetVariableQualifiedName() => "diceGetRollfinished";
 }

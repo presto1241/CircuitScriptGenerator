@@ -29,6 +29,11 @@ public class CommunityEventVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Community Event Variable";
     public string GetVariableQualifiedName() => "communityEventVariable";
 }

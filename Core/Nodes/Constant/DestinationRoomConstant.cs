@@ -27,6 +27,11 @@ public class DestinationRoomConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Destination Room Constant";
     public string GetVariableQualifiedName() => "destinationRoomConstant";
 }

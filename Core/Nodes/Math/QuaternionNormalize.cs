@@ -27,6 +27,11 @@ public class QuaternionNormalize : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Quaternion Normalize";
     public string GetVariableQualifiedName() => "quaternionNormalize";
 }

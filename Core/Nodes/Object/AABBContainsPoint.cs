@@ -29,6 +29,11 @@ public class AABBContainsPoint : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AABB Contains Point";
     public string GetVariableQualifiedName() => "aABBContainsPoint";
 }

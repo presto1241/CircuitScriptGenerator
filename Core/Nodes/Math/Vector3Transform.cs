@@ -29,6 +29,11 @@ public class Vector3Transform : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Transform";
     public string GetVariableQualifiedName() => "vector3Transform";
 }

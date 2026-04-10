@@ -28,6 +28,11 @@ public class RequestPostGameRewards : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Request Post Game Rewards";
     public string GetVariableQualifiedName() => "requestPostGameRewards";
 }

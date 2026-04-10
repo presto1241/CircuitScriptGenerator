@@ -27,6 +27,11 @@ public class Atan : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Atan";
     public string GetVariableQualifiedName() => "atan";
 }

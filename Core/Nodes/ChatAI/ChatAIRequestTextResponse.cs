@@ -36,6 +36,11 @@ public class ChatAIRequestTextResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Chat AI Request Text Response";
     public string GetVariableQualifiedName() => "chatAIRequestTextResponse";
 }

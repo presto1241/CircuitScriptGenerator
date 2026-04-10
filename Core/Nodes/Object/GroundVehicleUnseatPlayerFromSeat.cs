@@ -30,6 +30,11 @@ public class GroundVehicleUnseatPlayerFromSeat : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ground Vehicle Unseat Player From Seat";
     public string GetVariableQualifiedName() => "groundVehicleUnseatPlayerFromSeat";
 }

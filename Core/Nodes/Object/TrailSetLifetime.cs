@@ -29,6 +29,11 @@ public class TrailSetLifetime : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trail Set Lifetime";
     public string GetVariableQualifiedName() => "trailSetLifetime";
 }

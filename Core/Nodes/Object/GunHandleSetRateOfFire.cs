@@ -29,6 +29,11 @@ public class GunHandleSetRateOfFire : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Set Rate Of Fire";
     public string GetVariableQualifiedName() => "gunHandleSetRateOfFire";
 }

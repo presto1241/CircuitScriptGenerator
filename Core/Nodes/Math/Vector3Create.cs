@@ -29,6 +29,11 @@ public class Vector3Create : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Create";
     public string GetVariableQualifiedName() => "vector3Create";
 }

@@ -29,6 +29,11 @@ public class TexturedQuadSetTexture : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Textured Quad Set Texture";
     public string GetVariableQualifiedName() => "texturedQuadSetTexture";
 }

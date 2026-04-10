@@ -4,7 +4,8 @@
  * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
- * Description: Searches the room for all objects with the input tag and outputs a list of their direct children and all descendants in the hierarchy.
+ * Description: Searches the room for all objects with the input tag and outputs a
+ list of their direct children and all descendants in the hierarchy.
  * Types: 
  * 
  * INPUTS: 
@@ -24,6 +25,11 @@ namespace CircuitScriptGenerator.Core.Nodes.Object;
 public class RecRoomObjectGetAllChildrenwithTag : INodeBehaviour
 {
     public void Generate(List<Port> inputPorts, List<Port> outputPorts)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Generate(Graph graph, Node nodeReference)
     {
         throw new NotImplementedException();
     }

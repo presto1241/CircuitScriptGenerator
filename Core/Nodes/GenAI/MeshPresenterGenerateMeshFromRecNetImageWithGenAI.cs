@@ -33,6 +33,11 @@ public class MeshPresenterGenerateMeshFromRecNetImageWithGenAI : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mesh Presenter Generate Mesh From RecNet Image With Gen AI";
     public string GetVariableQualifiedName() => "meshPresenterGenerateMeshFromRecNetImageWithGenAI";
 }

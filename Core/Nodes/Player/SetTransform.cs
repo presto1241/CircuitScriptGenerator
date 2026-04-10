@@ -31,6 +31,11 @@ public class SetTransform : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Transform";
     public string GetVariableQualifiedName() => "setTransform";
 }

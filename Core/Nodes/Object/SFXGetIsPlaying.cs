@@ -27,6 +27,11 @@ public class SFXGetIsPlaying : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "SFX Get Is Playing";
     public string GetVariableQualifiedName() => "sFXGetIsPlaying";
 }

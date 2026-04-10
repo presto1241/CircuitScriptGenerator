@@ -27,6 +27,11 @@ public class AudioGetLength : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Audio Get Length";
     public string GetVariableQualifiedName() => "audioGetLength";
 }

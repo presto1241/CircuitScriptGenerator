@@ -29,6 +29,11 @@ public class ListRemoveItemAll : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Remove Item (All)";
     public string GetVariableQualifiedName() => "listRemoveItemAll";
 }

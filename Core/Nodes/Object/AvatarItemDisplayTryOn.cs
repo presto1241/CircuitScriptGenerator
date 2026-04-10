@@ -28,6 +28,11 @@ public class AvatarItemDisplayTryOn : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Avatar Item Display Try On";
     public string GetVariableQualifiedName() => "avatarItemDisplayTryOn";
 }

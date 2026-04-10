@@ -30,6 +30,11 @@ public class GetClosest : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Closest";
     public string GetVariableQualifiedName() => "getClosest";
 }

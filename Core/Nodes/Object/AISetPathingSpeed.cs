@@ -29,6 +29,11 @@ public class AISetPathingSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Set Pathing Speed";
     public string GetVariableQualifiedName() => "aISetPathingSpeed";
 }

@@ -32,6 +32,11 @@ public class TimeGetUnsyncedUniversalTime : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Time Get Unsynced Universal Time";
     public string GetVariableQualifiedName() => "timeGetUnsyncedUniversalTime";
 }

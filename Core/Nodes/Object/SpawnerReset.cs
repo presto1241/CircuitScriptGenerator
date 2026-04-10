@@ -28,6 +28,11 @@ public class SpawnerReset : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Spawner Reset";
     public string GetVariableQualifiedName() => "spawnerReset";
 }

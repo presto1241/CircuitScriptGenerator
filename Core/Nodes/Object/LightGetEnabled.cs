@@ -27,6 +27,11 @@ public class LightGetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Light Get Enabled";
     public string GetVariableQualifiedName() => "lightGetEnabled";
 }

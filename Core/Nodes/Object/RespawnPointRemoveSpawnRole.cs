@@ -29,6 +29,11 @@ public class RespawnPointRemoveSpawnRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Respawn Point Remove Spawn Role";
     public string GetVariableQualifiedName() => "respawnPointRemoveSpawnRole";
 }

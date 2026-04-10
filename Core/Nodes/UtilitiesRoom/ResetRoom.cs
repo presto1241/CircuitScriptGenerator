@@ -27,6 +27,11 @@ public class ResetRoom : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Reset Room";
     public string GetVariableQualifiedName() => "resetRoom";
 }

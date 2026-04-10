@@ -6,6 +6,8 @@
  * Description: This is a script that runs through a given graph and generates code for it.
  */
 
+using System.Reflection;
+
 namespace CircuitScriptGenerator.Core.Api.Generation;
 
 public class ScriptGenerator
@@ -13,32 +15,46 @@ public class ScriptGenerator
     #region Static
     /* I plan to move this whole system over to a json file in the future */
     public const string PathToTemplates = "Templates";
-    public static string GetTemplatePath(GenerationTemplate template)
+    public static string GetTemplate(GenerationTemplate template, FileTemplate fileTemplate = FileTemplate.Class)
     {
-        string path = Path.Combine(Directory.GetCurrentDirectory(), PathToTemplates);
-
-        if (!Directory.Exists(path))
-        {
-            Console.WriteLine($"[Error] [ScriptGenerator] Could not find templates file! Are you running the exe in the right directory?");
-            throw new DirectoryNotFoundException();
-        }
+        string path = ".Templates.";
 
         switch (template)
         {
             case GenerationTemplate.Standalone:
-            path += "/Standalone";
+            path += "Standalone.";
             break;
 
             case GenerationTemplate.Unity:
-            path += "/Unity";
+            path += "Unity.";
             break;
 
             case GenerationTemplate.VRChat:
-            path += "/VRChat";
+            path += "VRChat.";
             break;
         }
 
-        return path;
+        switch (fileTemplate)
+        {
+            case FileTemplate.Class:
+            path += "Class.scriban";
+            break;
+            
+            case FileTemplate.Events:
+            path += "Events.scriban";
+            break;
+        }
+
+        var assembly = Assembly.GetExecutingAssembly();
+        Stream? stream = assembly.GetManifestResourceStream(assembly.GetName().Name + path);
+
+        if (stream == null)
+        {
+            throw new FileNotFoundException("Could not find generation template in assembly.");
+        }
+
+        StreamReader reader = new StreamReader(stream);
+        return reader.ReadToEnd();
     }
     #endregion
 

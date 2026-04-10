@@ -27,6 +27,11 @@ public class Round : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Round";
     public string GetVariableQualifiedName() => "round";
 }

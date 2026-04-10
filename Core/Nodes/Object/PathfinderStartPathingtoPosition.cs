@@ -33,6 +33,11 @@ public class PathfinderStartPathingtoPosition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Pathfinder Start Pathing to Position";
     public string GetVariableQualifiedName() => "pathfinderStartPathingtoPosition";
 }

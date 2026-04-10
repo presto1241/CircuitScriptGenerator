@@ -28,6 +28,11 @@ public class GetShoppingBagQuantity : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Shopping Bag Quantity";
     public string GetVariableQualifiedName() => "getShoppingBagQuantity";
 }

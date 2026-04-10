@@ -29,6 +29,11 @@ public class LightSetIntensity : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Light Set Intensity";
     public string GetVariableQualifiedName() => "lightSetIntensity";
 }

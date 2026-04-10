@@ -27,6 +27,11 @@ public class ArtCanvasIsImageTransparent : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Art Canvas Is Image Transparent";
     public string GetVariableQualifiedName() => "artCanvasIsImageTransparent";
 }

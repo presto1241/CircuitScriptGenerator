@@ -27,6 +27,11 @@ public class ToString : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "To String";
     public string GetVariableQualifiedName() => "toString";
 }

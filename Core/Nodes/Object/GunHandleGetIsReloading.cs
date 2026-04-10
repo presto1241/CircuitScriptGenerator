@@ -27,6 +27,11 @@ public class GunHandleGetIsReloading : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Get Is Reloading";
     public string GetVariableQualifiedName() => "gunHandleGetIsReloading";
 }

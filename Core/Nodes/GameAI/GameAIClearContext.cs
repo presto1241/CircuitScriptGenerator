@@ -29,6 +29,11 @@ public class GameAIClearContext : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Clear Context";
     public string GetVariableQualifiedName() => "gameAIClearContext";
 }

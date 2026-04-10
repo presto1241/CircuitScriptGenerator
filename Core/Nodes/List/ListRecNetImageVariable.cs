@@ -29,6 +29,11 @@ public class ListRecNetImageVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<RecNet Image> Variable";
     public string GetVariableQualifiedName() => "listRecNetImageVariable";
 }

@@ -31,6 +31,11 @@ public class GoToEvent : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Go To Event";
     public string GetVariableQualifiedName() => "goToEvent";
 }

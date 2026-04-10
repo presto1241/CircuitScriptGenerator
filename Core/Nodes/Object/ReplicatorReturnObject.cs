@@ -28,6 +28,11 @@ public class ReplicatorReturnObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Replicator Return Object";
     public string GetVariableQualifiedName() => "replicatorReturnObject";
 }

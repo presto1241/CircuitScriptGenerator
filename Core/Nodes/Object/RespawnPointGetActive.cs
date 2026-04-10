@@ -27,6 +27,11 @@ public class RespawnPointGetActive : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Respawn Point Get Active";
     public string GetVariableQualifiedName() => "respawnPointGetActive";
 }

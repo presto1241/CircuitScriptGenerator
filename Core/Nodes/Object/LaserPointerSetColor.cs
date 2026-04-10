@@ -29,6 +29,11 @@ public class LaserPointerSetColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Laser Pointer Set Color";
     public string GetVariableQualifiedName() => "laserPointerSetColor";
 }

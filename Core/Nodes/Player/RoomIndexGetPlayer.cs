@@ -27,6 +27,11 @@ public class RoomIndexGetPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Index Get Player";
     public string GetVariableQualifiedName() => "roomIndexGetPlayer";
 }

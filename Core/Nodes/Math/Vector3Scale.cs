@@ -28,6 +28,11 @@ public class Vector3Scale : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Scale";
     public string GetVariableQualifiedName() => "vector3Scale";
 }

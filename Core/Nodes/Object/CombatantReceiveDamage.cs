@@ -31,6 +31,11 @@ public class CombatantReceiveDamage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Combatant Receive Damage";
     public string GetVariableQualifiedName() => "combatantReceiveDamage";
 }

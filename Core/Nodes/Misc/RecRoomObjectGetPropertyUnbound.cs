@@ -27,6 +27,11 @@ public class RecRoomObjectGetPropertyUnbound : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Get Property (Unbound)";
     public string GetVariableQualifiedName() => "recRoomObjectGetPropertyUnbound";
 }

@@ -32,6 +32,11 @@ public class EquipObjecttoOffHand : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Equip Object to Off Hand";
     public string GetVariableQualifiedName() => "equipObjecttoOffHand";
 }

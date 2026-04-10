@@ -27,6 +27,11 @@ public class WelcomeMatGetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Welcome Mat Get Enabled";
     public string GetVariableQualifiedName() => "welcomeMatGetEnabled";
 }

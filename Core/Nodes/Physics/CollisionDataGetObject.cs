@@ -27,6 +27,11 @@ public class CollisionDataGetObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Collision Data Get Object";
     public string GetVariableQualifiedName() => "collisionDataGetObject";
 }

@@ -27,6 +27,11 @@ public class MusicConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Music Constant";
     public string GetVariableQualifiedName() => "musicConstant";
 }

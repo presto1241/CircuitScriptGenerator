@@ -29,6 +29,11 @@ public class GunHandleSetADSEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gun Handle Set ADS Enabled";
     public string GetVariableQualifiedName() => "gunHandleSetADSEnabled";
 }

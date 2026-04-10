@@ -29,6 +29,11 @@ public class GroundVehicleSetDrivingEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ground Vehicle Set Driving Enabled";
     public string GetVariableQualifiedName() => "groundVehicleSetDrivingEnabled";
 }

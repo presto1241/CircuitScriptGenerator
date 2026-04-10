@@ -28,6 +28,11 @@ public class StudioObjectGetPropertyVector3 : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Studio Object Get Property - Vector3";
     public string GetVariableQualifiedName() => "studioObjectGetPropertyVector3";
 }

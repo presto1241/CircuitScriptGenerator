@@ -27,6 +27,11 @@ public class GetHUDElementValue : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get HUD Element Value";
     public string GetVariableQualifiedName() => "getHUDElementValue";
 }

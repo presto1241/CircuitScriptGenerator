@@ -52,6 +52,11 @@ public class FindandAvoidObstacle : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Find and Avoid Obstacle";
     public string GetVariableQualifiedName() => "findandAvoidObstacle";
 }

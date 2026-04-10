@@ -27,6 +27,11 @@ public class TouchpadComponentGetIsEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Touchpad Component Get Is Enabled";
     public string GetVariableQualifiedName() => "touchpadComponentGetIsEnabled";
 }

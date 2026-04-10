@@ -28,6 +28,11 @@ public class AIStartCombatBehavior : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "AI Start Combat Behavior";
     public string GetVariableQualifiedName() => "aIStartCombatBehavior";
 }

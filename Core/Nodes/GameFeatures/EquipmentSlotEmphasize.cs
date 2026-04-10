@@ -4,7 +4,9 @@
  * Created Date: 2026-04-06T00:22:41+00:00
  * Author: Preston
  * 
- * Description: Play an emphasize animation for equipment slot for local player. In VR,this will also trigger a controller haptics and a notification visual effect on your watch.
+ * Description: Play an emphasize animation for equipment slot for local player. In VR,
+this will also trigger a controller haptics and a notification visual effect
+ on your watch.
  * Types: 
  * 
  * INPUTS: 
@@ -26,6 +28,11 @@ namespace CircuitScriptGenerator.Core.Nodes.GameFeatures;
 public class EquipmentSlotEmphasize : INodeBehaviour
 {
     public void Generate(List<Port> inputPorts, List<Port> outputPorts)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Generate(Graph graph, Node nodeReference)
     {
         throw new NotImplementedException();
     }

@@ -29,6 +29,11 @@ public class DoorSetLocked : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Door Set Locked";
     public string GetVariableQualifiedName() => "doorSetLocked";
 }

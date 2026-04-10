@@ -29,6 +29,11 @@ public class SharedGameAISetIsSingleSpeakerModeEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Shared Game AI Set Is Single Speaker Mode Enabled";
     public string GetVariableQualifiedName() => "sharedGameAISetIsSingleSpeakerModeEnabled";
 }

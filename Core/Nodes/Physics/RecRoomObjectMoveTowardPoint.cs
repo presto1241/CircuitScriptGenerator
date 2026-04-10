@@ -55,6 +55,11 @@ public class RecRoomObjectMoveTowardPoint : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Move (Toward Point)";
     public string GetVariableQualifiedName() => "recRoomObjectMoveTowardPoint";
 }

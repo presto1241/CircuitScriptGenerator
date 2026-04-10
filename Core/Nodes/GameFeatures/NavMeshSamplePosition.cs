@@ -29,6 +29,11 @@ public class NavMeshSamplePosition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "NavMesh Sample Position";
     public string GetVariableQualifiedName() => "navMeshSamplePosition";
 }

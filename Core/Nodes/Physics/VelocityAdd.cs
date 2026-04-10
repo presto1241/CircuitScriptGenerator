@@ -31,6 +31,11 @@ public class VelocityAdd : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Velocity Add";
     public string GetVariableQualifiedName() => "velocityAdd";
 }

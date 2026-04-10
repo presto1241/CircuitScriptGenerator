@@ -31,6 +31,11 @@ public class MeshPresenterCreateInventionForLocalPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mesh Presenter Create Invention For Local Player";
     public string GetVariableQualifiedName() => "meshPresenterCreateInventionForLocalPlayer";
 }

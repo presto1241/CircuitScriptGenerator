@@ -27,6 +27,11 @@ public class Vector3Normalize : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector3 Normalize";
     public string GetVariableQualifiedName() => "vector3Normalize";
 }

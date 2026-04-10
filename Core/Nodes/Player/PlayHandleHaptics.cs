@@ -30,6 +30,11 @@ public class PlayHandleHaptics : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Play Handle Haptics";
     public string GetVariableQualifiedName() => "playHandleHaptics";
 }

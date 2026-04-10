@@ -31,6 +31,11 @@ public class ShowBannerNotification : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Show Banner Notification";
     public string GetVariableQualifiedName() => "showBannerNotification";
 }

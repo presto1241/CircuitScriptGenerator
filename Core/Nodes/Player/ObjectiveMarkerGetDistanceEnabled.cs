@@ -27,6 +27,11 @@ public class ObjectiveMarkerGetDistanceEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Get Distance Enabled";
     public string GetVariableQualifiedName() => "objectiveMarkerGetDistanceEnabled";
 }

@@ -28,6 +28,11 @@ public class GreaterThan : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Greater Than";
     public string GetVariableQualifiedName() => "greaterThan";
 }

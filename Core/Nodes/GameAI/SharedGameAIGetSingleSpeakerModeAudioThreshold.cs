@@ -27,6 +27,11 @@ public class SharedGameAIGetSingleSpeakerModeAudioThreshold : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Shared Game AI Get Single Speaker Mode Audio Threshold";
     public string GetVariableQualifiedName() => "sharedGameAIGetSingleSpeakerModeAudioThreshold";
 }

@@ -27,6 +27,11 @@ public class ExplosionEmitterGetExplosionRadius : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Explosion Emitter Get Explosion Radius";
     public string GetVariableQualifiedName() => "explosionEmitterGetExplosionRadius";
 }

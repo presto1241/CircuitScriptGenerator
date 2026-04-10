@@ -28,6 +28,11 @@ public class ClearScreen : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Clear Screen";
     public string GetVariableQualifiedName() => "clearScreen";
 }

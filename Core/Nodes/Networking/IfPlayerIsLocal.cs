@@ -29,6 +29,11 @@ public class IfPlayerIsLocal : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "If Player Is Local";
     public string GetVariableQualifiedName() => "ifPlayerIsLocal";
 }

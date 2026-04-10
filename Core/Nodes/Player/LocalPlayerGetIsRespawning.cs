@@ -27,6 +27,11 @@ public class LocalPlayerGetIsRespawning : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Get Is Respawning";
     public string GetVariableQualifiedName() => "localPlayerGetIsRespawning";
 }

@@ -29,6 +29,11 @@ public class MeshPresenterSaveMeshToLocalPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mesh Presenter Save Mesh To Local Player";
     public string GetVariableQualifiedName() => "meshPresenterSaveMeshToLocalPlayer";
 }

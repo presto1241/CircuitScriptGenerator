@@ -30,6 +30,11 @@ public class DiscoverySectionGetCustomAvatarItemList : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Discovery Section Get Custom Avatar Item List";
     public string GetVariableQualifiedName() => "discoverySectionGetCustomAvatarItemList";
 }

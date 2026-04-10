@@ -30,6 +30,11 @@ public class DiscoverySectionGetStoreItemList : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Discovery Section Get Store Item List";
     public string GetVariableQualifiedName() => "discoverySectionGetStoreItemList";
 }

@@ -28,6 +28,11 @@ public class VectorComponentGetVector : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Vector Component Get Vector";
     public string GetVariableQualifiedName() => "vectorComponentGetVector";
 }

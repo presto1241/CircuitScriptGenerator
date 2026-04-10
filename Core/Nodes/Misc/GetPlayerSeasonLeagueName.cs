@@ -27,6 +27,11 @@ public class GetPlayerSeasonLeagueName : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Player Season League Name";
     public string GetVariableQualifiedName() => "getPlayerSeasonLeagueName";
 }

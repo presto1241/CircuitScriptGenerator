@@ -27,6 +27,11 @@ public class ObjectiveMarkerGetTargetPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Get Target Player";
     public string GetVariableQualifiedName() => "objectiveMarkerGetTargetPlayer";
 }

@@ -27,6 +27,11 @@ public class PlayerCanReceiveTextPrompt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Can Receive Text Prompt";
     public string GetVariableQualifiedName() => "playerCanReceiveTextPrompt";
 }

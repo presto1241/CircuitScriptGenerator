@@ -27,6 +27,11 @@ public class RangedWeaponGetProjectileSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Get Projectile Speed";
     public string GetVariableQualifiedName() => "rangedWeaponGetProjectileSpeed";
 }

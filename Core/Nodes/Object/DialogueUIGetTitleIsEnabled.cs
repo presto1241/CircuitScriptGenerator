@@ -27,6 +27,11 @@ public class DialogueUIGetTitleIsEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Dialogue UI Get Title Is Enabled";
     public string GetVariableQualifiedName() => "dialogueUIGetTitleIsEnabled";
 }

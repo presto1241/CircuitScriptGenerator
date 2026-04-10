@@ -39,6 +39,11 @@ public class GameAISendImagePromptwithResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Send Image Prompt with Response";
     public string GetVariableQualifiedName() => "gameAISendImagePromptwithResponse";
 }

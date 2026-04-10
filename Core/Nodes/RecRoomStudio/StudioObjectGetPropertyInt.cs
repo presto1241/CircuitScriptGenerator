@@ -28,6 +28,11 @@ public class StudioObjectGetPropertyInt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Studio Object Get Property - Int";
     public string GetVariableQualifiedName() => "studioObjectGetPropertyInt";
 }

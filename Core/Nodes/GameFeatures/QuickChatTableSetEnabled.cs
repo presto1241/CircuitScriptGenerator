@@ -30,6 +30,11 @@ public class QuickChatTableSetEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Quick Chat Table Set Enabled";
     public string GetVariableQualifiedName() => "quickChatTableSetEnabled";
 }

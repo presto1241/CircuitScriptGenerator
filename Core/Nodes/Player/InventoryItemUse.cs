@@ -28,6 +28,11 @@ public class InventoryItemUse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Inventory Item Use";
     public string GetVariableQualifiedName() => "inventoryItemUse";
 }

@@ -30,6 +30,11 @@ public class RecRoomObjectSetColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Set Color";
     public string GetVariableQualifiedName() => "recRoomObjectSetColor";
 }

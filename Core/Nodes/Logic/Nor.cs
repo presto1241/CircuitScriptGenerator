@@ -27,6 +27,11 @@ public class Nor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Nor";
     public string GetVariableQualifiedName() => "nor";
 }

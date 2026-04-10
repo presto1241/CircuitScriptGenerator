@@ -27,6 +27,11 @@ public class SnapPointGetSnappedSnapPoint : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Snap Point Get Snapped Snap Point";
     public string GetVariableQualifiedName() => "snapPointGetSnappedSnapPoint";
 }

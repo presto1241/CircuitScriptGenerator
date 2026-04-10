@@ -29,6 +29,11 @@ public class ChatAIVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Chat AI Variable";
     public string GetVariableQualifiedName() => "chatAIVariable";
 }

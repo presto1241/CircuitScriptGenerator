@@ -27,6 +27,11 @@ public class Multiply : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Multiply";
     public string GetVariableQualifiedName() => "multiply";
 }

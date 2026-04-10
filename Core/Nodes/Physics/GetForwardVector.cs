@@ -27,6 +27,11 @@ public class GetForwardVector : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Forward Vector";
     public string GetVariableQualifiedName() => "getForwardVector";
 }

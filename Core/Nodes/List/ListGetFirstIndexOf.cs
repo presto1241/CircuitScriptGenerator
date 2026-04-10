@@ -28,6 +28,11 @@ public class ListGetFirstIndexOf : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Get First Index Of";
     public string GetVariableQualifiedName() => "listGetFirstIndexOf";
 }

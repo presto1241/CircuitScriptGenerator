@@ -27,6 +27,11 @@ public class EventSender : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Event Sender";
     public string GetVariableQualifiedName() => "eventSender";
 }

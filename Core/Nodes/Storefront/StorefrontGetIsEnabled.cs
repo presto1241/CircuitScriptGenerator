@@ -27,6 +27,11 @@ public class StorefrontGetIsEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Storefront Get Is Enabled";
     public string GetVariableQualifiedName() => "storefrontGetIsEnabled";
 }

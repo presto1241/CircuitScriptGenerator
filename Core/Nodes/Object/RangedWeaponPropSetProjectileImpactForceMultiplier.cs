@@ -31,6 +31,11 @@ public class RangedWeaponPropSetProjectileImpactForceMultiplier : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ranged Weapon Prop Set Projectile Impact Force Multiplier";
     public string GetVariableQualifiedName() => "rangedWeaponPropSetProjectileImpactForceMultiplier";
 }

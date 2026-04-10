@@ -29,6 +29,11 @@ public class ShowRoomDetails : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Show Room Details";
     public string GetVariableQualifiedName() => "showRoomDetails";
 }

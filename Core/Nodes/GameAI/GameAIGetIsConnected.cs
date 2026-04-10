@@ -30,6 +30,11 @@ public class GameAIGetIsConnected : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Is Connected";
     public string GetVariableQualifiedName() => "gameAIGetIsConnected";
 }

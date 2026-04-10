@@ -27,6 +27,11 @@ public class AmbienceConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ambience Constant";
     public string GetVariableQualifiedName() => "ambienceConstant";
 }

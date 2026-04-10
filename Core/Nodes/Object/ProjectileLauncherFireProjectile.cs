@@ -29,6 +29,11 @@ public class ProjectileLauncherFireProjectile : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Projectile Launcher Fire Projectile";
     public string GetVariableQualifiedName() => "projectileLauncherFireProjectile";
 }

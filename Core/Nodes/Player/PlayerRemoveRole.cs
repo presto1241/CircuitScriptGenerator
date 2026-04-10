@@ -29,6 +29,11 @@ public class PlayerRemoveRole : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Remove Role";
     public string GetVariableQualifiedName() => "playerRemoveRole";
 }

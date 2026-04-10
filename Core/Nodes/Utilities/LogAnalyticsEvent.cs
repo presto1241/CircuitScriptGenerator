@@ -28,6 +28,11 @@ public class LogAnalyticsEvent : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Log Analytics Event";
     public string GetVariableQualifiedName() => "logAnalyticsEvent";
 }

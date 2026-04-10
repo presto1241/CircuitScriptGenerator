@@ -29,6 +29,11 @@ public class SnapPointSetLocked : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Snap Point Set Locked";
     public string GetVariableQualifiedName() => "snapPointSetLocked";
 }

@@ -32,6 +32,11 @@ public class GrabberGrabObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Grabber Grab Object";
     public string GetVariableQualifiedName() => "grabberGrabObject";
 }

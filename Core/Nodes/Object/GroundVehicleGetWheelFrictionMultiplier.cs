@@ -27,6 +27,11 @@ public class GroundVehicleGetWheelFrictionMultiplier : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Ground Vehicle Get Wheel Friction Multiplier";
     public string GetVariableQualifiedName() => "groundVehicleGetWheelFrictionMultiplier";
 }

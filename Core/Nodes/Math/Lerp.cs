@@ -29,6 +29,11 @@ public class Lerp : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Lerp";
     public string GetVariableQualifiedName() => "lerp";
 }

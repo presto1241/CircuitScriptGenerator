@@ -27,6 +27,11 @@ public class RecRoomObjectGetDirectlySnappedObjects : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Rec Room Object Get Directly Snapped Objects";
     public string GetVariableQualifiedName() => "recRoomObjectGetDirectlySnappedObjects";
 }

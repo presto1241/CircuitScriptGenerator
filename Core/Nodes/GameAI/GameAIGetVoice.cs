@@ -27,6 +27,11 @@ public class GameAIGetVoice : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Get Voice";
     public string GetVariableQualifiedName() => "gameAIGetVoice";
 }

@@ -31,6 +31,11 @@ public class OverlapBox : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Overlap Box";
     public string GetVariableQualifiedName() => "overlapBox";
 }

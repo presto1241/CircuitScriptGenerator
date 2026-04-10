@@ -27,6 +27,11 @@ public class RoomGetMatchmakingState : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Get Matchmaking State";
     public string GetVariableQualifiedName() => "roomGetMatchmakingState";
 }

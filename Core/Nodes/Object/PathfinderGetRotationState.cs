@@ -30,6 +30,11 @@ public class PathfinderGetRotationState : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Pathfinder Get Rotation State";
     public string GetVariableQualifiedName() => "pathfinderGetRotationState";
 }

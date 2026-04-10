@@ -27,6 +27,11 @@ public class AvatarItemDisplayGetAvatarItem : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Avatar Item Display Get Avatar Item";
     public string GetVariableQualifiedName() => "avatarItemDisplayGetAvatarItem";
 }

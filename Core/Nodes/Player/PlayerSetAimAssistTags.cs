@@ -30,6 +30,11 @@ public class PlayerSetAimAssistTags : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Set Aim Assist Tags";
     public string GetVariableQualifiedName() => "playerSetAimAssistTags";
 }

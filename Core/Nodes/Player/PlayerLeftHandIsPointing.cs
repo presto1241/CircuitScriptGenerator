@@ -27,6 +27,11 @@ public class PlayerLeftHandIsPointing : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Left Hand Is Pointing";
     public string GetVariableQualifiedName() => "playerLeftHandIsPointing";
 }

@@ -27,6 +27,11 @@ public class LocalPlayerisJunior : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player is Junior";
     public string GetVariableQualifiedName() => "localPlayerisJunior";
 }

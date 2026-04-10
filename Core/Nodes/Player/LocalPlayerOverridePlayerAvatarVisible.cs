@@ -29,6 +29,11 @@ public class LocalPlayerOverridePlayerAvatarVisible : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Override Player Avatar Visible";
     public string GetVariableQualifiedName() => "localPlayerOverridePlayerAvatarVisible";
 }

@@ -38,6 +38,11 @@ public class GameAISendSystemPromptWithResponse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Game AI Send System Prompt With Response";
     public string GetVariableQualifiedName() => "gameAISendSystemPromptWithResponse";
 }

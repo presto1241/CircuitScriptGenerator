@@ -27,6 +27,11 @@ public class ActiveAudioRecording : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Active Audio Recording";
     public string GetVariableQualifiedName() => "activeAudioRecording";
 }

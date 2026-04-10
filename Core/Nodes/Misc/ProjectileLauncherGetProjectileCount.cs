@@ -27,6 +27,11 @@ public class ProjectileLauncherGetProjectileCount : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Projectile Launcher Get Projectile Count";
     public string GetVariableQualifiedName() => "projectileLauncherGetProjectileCount";
 }

@@ -27,6 +27,11 @@ public class InstanceGetIsPrivate : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Instance Get Is Private";
     public string GetVariableQualifiedName() => "instanceGetIsPrivate";
 }

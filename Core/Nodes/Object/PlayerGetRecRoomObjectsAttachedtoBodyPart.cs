@@ -28,6 +28,11 @@ public class PlayerGetRecRoomObjectsAttachedtoBodyPart : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Rec Room Objects Attached to Body Part";
     public string GetVariableQualifiedName() => "playerGetRecRoomObjectsAttachedtoBodyPart";
 }

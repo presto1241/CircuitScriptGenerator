@@ -29,6 +29,11 @@ public class InteractionVolumeSetLocked : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Interaction Volume Set Locked";
     public string GetVariableQualifiedName() => "interactionVolumeSetLocked";
 }

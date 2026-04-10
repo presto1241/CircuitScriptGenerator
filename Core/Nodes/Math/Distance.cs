@@ -28,6 +28,11 @@ public class Distance : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Distance";
     public string GetVariableQualifiedName() => "distance";
 }

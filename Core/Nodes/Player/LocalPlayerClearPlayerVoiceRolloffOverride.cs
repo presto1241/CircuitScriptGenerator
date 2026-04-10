@@ -30,6 +30,11 @@ public class LocalPlayerClearPlayerVoiceRolloffOverride : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Clear Player Voice Rolloff Override";
     public string GetVariableQualifiedName() => "localPlayerClearPlayerVoiceRolloffOverride";
 }

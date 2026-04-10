@@ -29,6 +29,11 @@ public class ObjectiveMarkerSetFadeThreshold : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Set Fade Threshold";
     public string GetVariableQualifiedName() => "objectiveMarkerSetFadeThreshold";
 }

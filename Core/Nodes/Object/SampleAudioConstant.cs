@@ -27,6 +27,11 @@ public class SampleAudioConstant : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Sample Audio Constant";
     public string GetVariableQualifiedName() => "sampleAudioConstant";
 }

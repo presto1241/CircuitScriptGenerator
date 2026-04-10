@@ -28,6 +28,11 @@ public class AudioFXZoneSetEffect : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Audio FX Zone Set Effect";
     public string GetVariableQualifiedName() => "audioFXZoneSetEffect";
 }

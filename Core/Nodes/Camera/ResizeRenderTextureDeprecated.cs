@@ -31,6 +31,11 @@ public class ResizeRenderTextureDeprecated : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Resize Render Texture (Deprecated)";
     public string GetVariableQualifiedName() => "resizeRenderTextureDeprecated";
 }

@@ -30,6 +30,11 @@ public class ShowRewardNotification : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Show Reward Notification";
     public string GetVariableQualifiedName() => "showRewardNotification";
 }

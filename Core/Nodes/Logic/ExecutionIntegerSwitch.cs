@@ -28,6 +28,11 @@ public class ExecutionIntegerSwitch : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Execution Integer Switch";
     public string GetVariableQualifiedName() => "executionIntegerSwitch";
 }

@@ -35,6 +35,11 @@ public class GenAISendGenerateRecNetImagePrompt : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Gen AI Send Generate RecNet Image Prompt";
     public string GetVariableQualifiedName() => "genAISendGenerateRecNetImagePrompt";
 }

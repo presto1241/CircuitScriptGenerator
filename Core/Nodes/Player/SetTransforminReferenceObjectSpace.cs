@@ -32,6 +32,11 @@ public class SetTransforminReferenceObjectSpace : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Transform in Reference Object Space";
     public string GetVariableQualifiedName() => "setTransforminReferenceObjectSpace";
 }

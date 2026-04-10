@@ -29,6 +29,11 @@ public class TextureCopyWithResize : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Texture Copy With Resize";
     public string GetVariableQualifiedName() => "textureCopyWithResize";
 }

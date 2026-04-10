@@ -27,6 +27,11 @@ public class FromRecRoomObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "From Rec Room Object";
     public string GetVariableQualifiedName() => "fromRecRoomObject";
 }

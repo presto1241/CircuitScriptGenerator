@@ -28,6 +28,11 @@ public class StudioFunction : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Studio Function";
     public string GetVariableQualifiedName() => "studioFunction";
 }

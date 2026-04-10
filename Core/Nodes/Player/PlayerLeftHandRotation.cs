@@ -27,6 +27,11 @@ public class PlayerLeftHandRotation : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Left Hand Rotation";
     public string GetVariableQualifiedName() => "playerLeftHandRotation";
 }

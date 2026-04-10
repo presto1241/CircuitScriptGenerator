@@ -27,6 +27,11 @@ public class ListAnyTrue : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List Any True";
     public string GetVariableQualifiedName() => "listAnyTrue";
 }

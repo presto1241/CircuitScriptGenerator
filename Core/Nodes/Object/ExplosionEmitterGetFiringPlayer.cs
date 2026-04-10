@@ -27,6 +27,11 @@ public class ExplosionEmitterGetFiringPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Explosion Emitter Get Firing Player";
     public string GetVariableQualifiedName() => "explosionEmitterGetFiringPlayer";
 }

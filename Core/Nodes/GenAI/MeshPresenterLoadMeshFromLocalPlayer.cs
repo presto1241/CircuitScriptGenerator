@@ -29,6 +29,11 @@ public class MeshPresenterLoadMeshFromLocalPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Mesh Presenter Load Mesh From Local Player";
     public string GetVariableQualifiedName() => "meshPresenterLoadMeshFromLocalPlayer";
 }

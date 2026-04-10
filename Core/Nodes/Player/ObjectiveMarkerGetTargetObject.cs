@@ -27,6 +27,11 @@ public class ObjectiveMarkerGetTargetObject : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Objective Marker Get Target Object";
     public string GetVariableQualifiedName() => "objectiveMarkerGetTargetObject";
 }

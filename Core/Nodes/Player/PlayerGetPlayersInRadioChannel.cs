@@ -27,6 +27,11 @@ public class PlayerGetPlayersInRadioChannel : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Players In Radio Channel";
     public string GetVariableQualifiedName() => "playerGetPlayersInRadioChannel";
 }

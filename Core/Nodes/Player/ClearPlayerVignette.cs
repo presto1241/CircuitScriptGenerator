@@ -28,6 +28,11 @@ public class ClearPlayerVignette : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Clear Player Vignette";
     public string GetVariableQualifiedName() => "clearPlayerVignette";
 }

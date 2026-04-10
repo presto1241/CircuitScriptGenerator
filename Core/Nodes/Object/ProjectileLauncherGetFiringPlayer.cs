@@ -27,6 +27,11 @@ public class ProjectileLauncherGetFiringPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Projectile Launcher Get Firing Player";
     public string GetVariableQualifiedName() => "projectileLauncherGetFiringPlayer";
 }

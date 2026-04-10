@@ -27,6 +27,11 @@ public class ProjectileLauncherGetProjectileSpread : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Projectile Launcher Get Projectile Spread";
     public string GetVariableQualifiedName() => "projectileLauncherGetProjectileSpread";
 }

@@ -27,6 +27,11 @@ public class ExplosionEmitterGetExplosionColor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Explosion Emitter Get Explosion Color";
     public string GetVariableQualifiedName() => "explosionEmitterGetExplosionColor";
 }

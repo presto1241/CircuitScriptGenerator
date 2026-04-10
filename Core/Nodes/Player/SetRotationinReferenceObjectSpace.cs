@@ -31,6 +31,11 @@ public class SetRotationinReferenceObjectSpace : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Set Rotation in Reference Object Space";
     public string GetVariableQualifiedName() => "setRotationinReferenceObjectSpace";
 }

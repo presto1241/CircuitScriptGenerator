@@ -27,6 +27,11 @@ public class GetPlayerWorldUIEnabled : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Get Player World UI Enabled";
     public string GetVariableQualifiedName() => "getPlayerWorldUIEnabled";
 }

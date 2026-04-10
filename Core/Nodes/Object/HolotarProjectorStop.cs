@@ -28,6 +28,11 @@ public class HolotarProjectorStop : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Holotar Projector Stop";
     public string GetVariableQualifiedName() => "holotarProjectorStop";
 }

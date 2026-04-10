@@ -27,6 +27,11 @@ public class PlayerHeadPosition : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Head Position";
     public string GetVariableQualifiedName() => "playerHeadPosition";
 }

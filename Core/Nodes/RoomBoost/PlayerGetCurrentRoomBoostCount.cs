@@ -30,6 +30,11 @@ public class PlayerGetCurrentRoomBoostCount : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Current Room Boost Count";
     public string GetVariableQualifiedName() => "playerGetCurrentRoomBoostCount";
 }

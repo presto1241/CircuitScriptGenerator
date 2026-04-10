@@ -29,6 +29,11 @@ public class RespawnPointAddSpawnTag : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Respawn Point Add Spawn Tag";
     public string GetVariableQualifiedName() => "respawnPointAddSpawnTag";
 }

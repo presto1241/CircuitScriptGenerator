@@ -29,6 +29,11 @@ public class PlayerGetAirControlPercentage : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Air Control Percentage";
     public string GetVariableQualifiedName() => "playerGetAirControlPercentage";
 }

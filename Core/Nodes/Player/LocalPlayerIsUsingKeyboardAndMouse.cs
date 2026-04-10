@@ -27,6 +27,11 @@ public class LocalPlayerIsUsingKeyboardAndMouse : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Is Using Keyboard And Mouse";
     public string GetVariableQualifiedName() => "localPlayerIsUsingKeyboardAndMouse";
 }

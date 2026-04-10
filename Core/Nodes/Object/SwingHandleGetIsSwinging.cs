@@ -27,6 +27,11 @@ public class SwingHandleGetIsSwinging : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Swing Handle Get Is Swinging";
     public string GetVariableQualifiedName() => "swingHandleGetIsSwinging";
 }

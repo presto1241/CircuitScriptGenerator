@@ -28,6 +28,11 @@ public class BitXor : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Bit Xor";
     public string GetVariableQualifiedName() => "bitXor";
 }

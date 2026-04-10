@@ -30,6 +30,11 @@ public class RoomSkydomeClearPlayerOverride : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Room Skydome Clear Player Override";
     public string GetVariableQualifiedName() => "roomSkydomeClearPlayerOverride";
 }

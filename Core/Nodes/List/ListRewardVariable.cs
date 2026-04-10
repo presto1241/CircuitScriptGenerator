@@ -29,6 +29,11 @@ public class ListRewardVariable : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "List<Reward> Variable";
     public string GetVariableQualifiedName() => "listRewardVariable";
 }

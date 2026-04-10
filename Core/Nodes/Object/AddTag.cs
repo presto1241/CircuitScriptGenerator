@@ -29,6 +29,11 @@ public class AddTag : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Add Tag";
     public string GetVariableQualifiedName() => "addTag";
 }

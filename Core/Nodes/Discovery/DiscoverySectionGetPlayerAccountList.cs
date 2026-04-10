@@ -30,6 +30,11 @@ public class DiscoverySectionGetPlayerAccountList : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Discovery Section Get Player Account List";
     public string GetVariableQualifiedName() => "discoverySectionGetPlayerAccountList";
 }

@@ -29,6 +29,11 @@ public class PathfinderStopRotating : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Pathfinder Stop Rotating";
     public string GetVariableQualifiedName() => "pathfinderStopRotating";
 }

@@ -28,6 +28,11 @@ public class BreakTuple : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Break Tuple";
     public string GetVariableQualifiedName() => "breakTuple";
 }

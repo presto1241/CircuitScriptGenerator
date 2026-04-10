@@ -30,6 +30,11 @@ public class LocalPlayerGetObjectiveLogContent : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Local Player Get Objective Log Content";
     public string GetVariableQualifiedName() => "localPlayerGetObjectiveLogContent";
 }

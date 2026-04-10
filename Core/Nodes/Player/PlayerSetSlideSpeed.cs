@@ -29,6 +29,11 @@ public class PlayerSetSlideSpeed : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Set Slide Speed";
     public string GetVariableQualifiedName() => "playerSetSlideSpeed";
 }

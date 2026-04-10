@@ -32,6 +32,11 @@ public class PromptLocalPlayer : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Prompt Local Player";
     public string GetVariableQualifiedName() => "promptLocalPlayer";
 }

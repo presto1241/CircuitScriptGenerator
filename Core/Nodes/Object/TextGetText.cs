@@ -27,6 +27,11 @@ public class TextGetText : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Text Get Text";
     public string GetVariableQualifiedName() => "textGetText";
 }

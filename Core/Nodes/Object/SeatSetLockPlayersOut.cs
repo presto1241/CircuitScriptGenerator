@@ -29,6 +29,11 @@ public class SeatSetLockPlayersOut : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Seat Set Lock Players Out";
     public string GetVariableQualifiedName() => "seatSetLockPlayersOut";
 }

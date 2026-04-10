@@ -27,6 +27,11 @@ public class TriggerVolumeGetPlayerCount : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Trigger Volume Get Player Count";
     public string GetVariableQualifiedName() => "triggerVolumeGetPlayerCount";
 }

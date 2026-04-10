@@ -27,6 +27,11 @@ public class PlayerGetCanFly : INodeBehaviour
         throw new NotImplementedException();
     }
 
+    public void Generate(Graph graph, Node nodeReference)
+    {
+        throw new NotImplementedException();
+    }
+
     public string GetName() => "Player Get Can Fly";
     public string GetVariableQualifiedName() => "playerGetCanFly";
 }
